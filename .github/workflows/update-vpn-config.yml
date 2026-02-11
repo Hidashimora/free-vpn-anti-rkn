@@ -38,16 +38,9 @@ jobs:
             fi
           done
 
-      - name: Keep vpn.txt as copy of 26.txt (backward compatibility)
-        run: |
-          if [ -f configs/26.txt ] && [ -s configs/26.txt ]; then
-            cp configs/26.txt configs/vpn.txt
-            echo "configs/vpn.txt updated from 26.txt"
-          fi
-
       - name: Remove old config files from repo root (if any)
         run: |
-          for f in $(seq 1 26 | sed 's/$/.txt/') vpn.txt; do rm -f "$f"; done
+          for f in $(seq 1 26 | sed 's/$/.txt/'); do rm -f "$f"; done
 
       - name: Commit and push if changed
         run: |

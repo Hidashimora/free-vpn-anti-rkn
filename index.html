@@ -2,8 +2,8 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>VPN подписка</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>VPN подписки — обход блокировок</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,13 +17,13 @@
       --accent-hover: #0077ed;
       --border: rgba(0, 0, 0, 0.08);
       --shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
-      --radius: 18px;
-      --radius-sm: 12px;
+      --radius: 14px;
+      --radius-sm: 10px;
+      --safe-top: env(safe-area-inset-top);
+      --safe-bottom: env(safe-area-inset-bottom);
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
@@ -31,162 +31,158 @@
       color: var(--text);
       margin: 0;
       min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 2rem 1.5rem;
+      padding: max(1.25rem, var(--safe-top)) max(1rem, env(safe-area-inset-left)) max(1.5rem, var(--safe-bottom)) max(1rem, env(safe-area-inset-right));
       -webkit-font-smoothing: antialiased;
     }
 
-    .container {
-      width: 100%;
-      max-width: 520px;
+    .header {
+      text-align: center;
+      margin-bottom: 1.75rem;
     }
 
     .badge {
       display: inline-block;
-      font-size: 0.75rem;
+      font-size: 0.7rem;
       font-weight: 600;
-      letter-spacing: 0.02em;
+      letter-spacing: 0.04em;
       color: var(--accent);
       text-transform: uppercase;
-      margin-bottom: 0.75rem;
+      margin-bottom: 0.5rem;
     }
 
     h1 {
-      font-size: clamp(2rem, 5vw, 2.75rem);
+      font-size: clamp(1.5rem, 4.5vw, 2.25rem);
       font-weight: 700;
       letter-spacing: -0.02em;
-      line-height: 1.1;
-      margin: 0 0 0.5rem 0;
+      line-height: 1.2;
+      margin: 0 0 0.35rem 0;
     }
 
     .subtitle {
-      font-size: 1.125rem;
+      font-size: clamp(0.9rem, 2vw, 1rem);
       color: var(--text-secondary);
-      line-height: 1.5;
-      margin: 0 0 2.5rem 0;
+      line-height: 1.4;
+      margin: 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
+      gap: 0.75rem;
+      max-width: 1200px;
+      margin: 0 auto;
     }
 
     .card {
       background: var(--card);
       border-radius: var(--radius);
       box-shadow: var(--shadow);
-      padding: 1.5rem 1.75rem;
-      margin-bottom: 1.5rem;
       border: 1px solid var(--border);
-    }
-
-    .url-label {
-      font-size: 0.8125rem;
-      font-weight: 500;
-      color: var(--text-secondary);
-      margin-bottom: 0.5rem;
-    }
-
-    .url-box {
+      padding: 0.85rem 1rem;
       display: flex;
-      align-items: center;
-      gap: 0.75rem;
       flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
     }
 
-    .url-text {
+    .card-num {
+      flex-shrink: 0;
+      font-weight: 700;
+      font-size: 0.95rem;
+      min-width: 2rem;
+      color: var(--accent);
+    }
+
+    .card-url {
       flex: 1;
       min-width: 0;
-      font-size: 0.875rem;
-      font-family: 'SF Mono', 'Monaco', 'Consolas', monospace;
-      color: var(--text);
-      background: var(--bg);
-      padding: 0.875rem 1rem;
-      border-radius: var(--radius-sm);
-      border: 1px solid var(--border);
+      font-size: 0.75rem;
+      font-family: 'SF Mono', Monaco, Consolas, monospace;
+      color: var(--text-secondary);
       word-break: break-all;
+      line-height: 1.3;
     }
 
     .btn-copy {
       flex-shrink: 0;
       font-family: inherit;
-      font-size: 0.9375rem;
+      font-size: 0.8rem;
       font-weight: 500;
       color: #fff;
       background: var(--accent);
       border: none;
-      padding: 0.875rem 1.5rem;
+      padding: 0.5rem 0.85rem;
       border-radius: var(--radius-sm);
       cursor: pointer;
       transition: background 0.2s, transform 0.1s;
       -webkit-tap-highlight-color: transparent;
+      min-height: 36px;
     }
 
-    .btn-copy:hover {
-      background: var(--accent-hover);
-    }
-
-    .btn-copy:active {
-      transform: scale(0.98);
-    }
-
-    .btn-copy.copied {
-      background: #34c759;
-    }
+    .btn-copy:hover { background: var(--accent-hover); }
+    .btn-copy:active { transform: scale(0.97); }
+    .btn-copy.copied { background: #34c759; }
 
     .note {
-      font-size: 0.9375rem;
+      max-width: 1200px;
+      margin: 1.5rem auto 0;
+      font-size: 0.875rem;
       color: var(--text-secondary);
       line-height: 1.5;
-      margin: 0;
     }
 
-    .note strong {
-      color: var(--text);
-      font-weight: 500;
+    .note strong { color: var(--text); font-weight: 500; }
+
+    @media (min-width: 600px) {
+      .grid { gap: 0.9rem; }
+      .card { padding: 1rem 1.15rem; }
+      .card-url { font-size: 0.8rem; }
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <p class="badge">Подписка</p>
+  <header class="header">
+    <p class="badge">Подписки</p>
     <h1>VPN конфиги</h1>
-    <p class="subtitle">Одна ссылка для приложения. Обновляется автоматически каждый час.</p>
+    <p class="subtitle">Выбери список — скопируй ссылку — вставь в клиент. В каждом файле ~¼ серверов, без лагов.</p>
+  </header>
 
-    <div class="card">
-      <div class="url-label">Ссылка на подписку (Subscription URL)</div>
-      <div class="url-box">
-        <input type="text" class="url-text" id="url" readonly
-          value="https://raw.githubusercontent.com/hidashimora/hidashimora.github.io/main/configs/vpn.txt"
-          aria-label="Ссылка на подписку">
-        <button type="button" class="btn-copy" id="copyBtn" aria-label="Скопировать ссылку">Скопировать</button>
-      </div>
-    </div>
+  <main class="grid" id="grid" aria-label="Ссылки на подписки 1–26"></main>
 
-    <p class="note"><strong>Как использовать:</strong> вставь эту ссылку в настройках подписки в приложении VPN (v2rayN, Clash, Nekoray и др.). В списке примерно четверть конфигов от исходного источника.</p>
-  </div>
+  <p class="note"><strong>Как пользоваться:</strong> скопируй нужную ссылку и вставь в настройках подписки в приложении (v2rayNG, NekoRay, Throne, Hiddify, V2Box и др.). Список №26 — обход SNI/CIDR.</p>
 
   <script>
     (function () {
-      var urlInput = document.getElementById('url');
-      var copyBtn = document.getElementById('copyBtn');
+      var base = 'https://raw.githubusercontent.com/hidashimora/hidashimora.github.io/main/configs/';
+      var grid = document.getElementById('grid');
 
-      function copyUrl() {
-        urlInput.select();
-        urlInput.setSelectionRange(0, 99999);
-        try {
-          navigator.clipboard.writeText(urlInput.value);
-          copyBtn.textContent = 'Скопировано';
-          copyBtn.classList.add('copied');
-          setTimeout(function () {
-            copyBtn.textContent = 'Скопировать';
-            copyBtn.classList.remove('copied');
-          }, 2000);
-        } catch (e) {
-          copyBtn.textContent = 'Ошибка';
-          setTimeout(function () { copyBtn.textContent = 'Скопировать'; }, 1500);
-        }
+      for (var i = 1; i <= 26; i++) {
+        var url = base + i + '.txt';
+        var card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML =
+          '<span class="card-num">№' + i + '</span>' +
+          '<span class="card-url">' + url + '</span>' +
+          '<button type="button" class="btn-copy" data-url="' + url.replace(/"/g, '&quot;') + '" aria-label="Скопировать ссылку ' + i + '">Скопировать</button>';
+        grid.appendChild(card);
       }
 
-      copyBtn.addEventListener('click', copyUrl);
+      grid.addEventListener('click', function (e) {
+        var btn = e.target.closest('.btn-copy');
+        if (!btn) return;
+        var url = btn.getAttribute('data-url');
+        navigator.clipboard.writeText(url).then(function () {
+          btn.textContent = 'Скопировано';
+          btn.classList.add('copied');
+          setTimeout(function () {
+            btn.textContent = 'Скопировать';
+            btn.classList.remove('copied');
+          }, 2000);
+        }).catch(function () {
+          btn.textContent = 'Ошибка';
+          setTimeout(function () { btn.textContent = 'Скопировать'; }, 1500);
+        });
+      });
     })();
   </script>
 </body>
