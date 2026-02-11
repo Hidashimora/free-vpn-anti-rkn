@@ -1,248 +1,211 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="scroll-smooth">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>VPN подписки — обход блокировок</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <meta name="description" content="Укороченные списки VPN для V2Ray, VLESS, Hysteria, Trojan, VMess. Обновление раз в минуту. Рекомендованные списки 1, 6, 22–25; №26 — обход SNI/CIDR.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: { blue: '#3670A0', yellow: '#ffdd54', dark: '#0f172a', panel: '#1e293b' }
+          }
+        }
+      }
+    };
+  </script>
   <style>
-    :root {
-      --tg-bg: #0e0e0e;
-      --tg-bg-secondary: #1a1a1a;
-      --tg-surface: #232323;
-      --tg-surface-hover: #2e2e2e;
-      --tg-text: #e4e4e4;
-      --tg-text-muted: #8e8e93;
-      --tg-accent: #2aabee;
-      --tg-accent-hover: #229ed9;
-      --tg-success: #34c759;
-      --radius: 12px;
-      --radius-sm: 8px;
-      --safe-top: env(safe-area-inset-top);
-      --safe-bottom: env(safe-area-inset-bottom);
-      --transition: 0.2s ease;
+    [x-cloak] { display: none !important; }
+    html { scrollbar-gutter: stable; }
+    body::before, body::after {
+      content: '';
+      position: fixed;
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: -1;
+      filter: blur(100px);
+      opacity: 0.5;
     }
-
-    * { box-sizing: border-box; }
-
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
-      background: var(--tg-bg);
-      color: var(--tg-text);
-      margin: 0;
-      min-height: 100vh;
-      padding: max(1rem, var(--safe-top)) max(0.75rem, env(safe-area-inset-left)) max(5rem, var(--safe-bottom)) max(0.75rem, env(safe-area-inset-right));
-      -webkit-font-smoothing: antialiased;
+    body::before {
+      width: 70vw; height: 70vw;
+      background: radial-gradient(circle, rgba(54, 112, 160, 0.4) 0%, transparent 70%);
+      top: -20%; left: -20%;
+      animation: driftBlue 25s infinite alternate ease-in-out;
     }
-
-    .header {
-      text-align: center;
-      padding: 1.5rem 0 1.25rem;
+    body::after {
+      width: 60vw; height: 60vw;
+      background: radial-gradient(circle, rgba(255, 221, 84, 0.2) 0%, transparent 70%);
+      bottom: -20%; right: -20%;
+      animation: driftYellow 30s infinite alternate-reverse ease-in-out;
     }
-
-    .header h1 {
-      font-size: clamp(1.35rem, 4vw, 1.75rem);
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      margin: 0 0 0.4rem 0;
-      background: linear-gradient(135deg, var(--tg-text) 0%, var(--tg-text-muted) 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+    @keyframes driftBlue {
+      0% { transform: translate(0, 0) scale(1); }
+      50% { transform: translate(15vw, 15vh) scale(1.1); }
+      100% { transform: translate(0, 20vh) scale(1); }
     }
-
-    .header p {
-      font-size: 0.9rem;
-      color: var(--tg-text-muted);
-      margin: 0;
-      line-height: 1.4;
-      max-width: 420px;
-      margin-left: auto;
-      margin-right: auto;
+    @keyframes driftYellow {
+      0% { transform: translate(0, 0) scale(1); }
+      50% { transform: translate(-15vw, -15vh) scale(1.1); }
+      100% { transform: translate(-10vw, -20vh) scale(1); }
     }
-
-    .github-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
-      margin-top: 1rem;
-      padding: 0.5rem 1rem;
-      border-radius: var(--radius-sm);
-      background: var(--tg-surface);
-      color: var(--tg-accent);
-      text-decoration: none;
-      font-size: 0.875rem;
-      font-weight: 500;
-      transition: background var(--transition), color var(--transition), transform 0.15s ease;
-    }
-
-    .github-link:hover {
-      background: var(--tg-surface-hover);
-      color: var(--tg-accent-hover);
-      transform: translateY(-1px);
-    }
-
-    .github-link:active { transform: translateY(0); }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(min(100%, 140px), 1fr));
-      gap: 0.6rem;
-      max-width: 900px;
-      margin: 0 auto 2rem;
-    }
-
-    .card {
-      background: var(--tg-surface);
-      border-radius: var(--radius);
-      padding: 1rem;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.6rem;
-      transition: background var(--transition), transform 0.2s ease, box-shadow 0.2s ease;
-      border: 1px solid transparent;
-      animation: cardIn 0.4s ease backwards;
-    }
-
-    .card:hover {
-      background: var(--tg-surface-hover);
-      transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
-    }
-
-    .card:active { transform: translateY(0); }
-
-    @keyframes cardIn {
-      from {
-        opacity: 0;
-        transform: translateY(8px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    .card-num {
-      font-weight: 700;
-      font-size: 1.1rem;
-      color: var(--tg-accent);
-    }
-
-    .card-label {
-      font-size: 0.75rem;
-      color: var(--tg-text-muted);
-    }
-
-    .btn-copy {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.35rem;
-      width: 100%;
-      font-family: inherit;
-      font-size: 0.8rem;
-      font-weight: 500;
-      color: #fff;
-      background: var(--tg-accent);
-      border: none;
-      padding: 0.5rem 0.75rem;
-      border-radius: var(--radius-sm);
-      cursor: pointer;
-      transition: background var(--transition), transform 0.1s ease;
-      -webkit-tap-highlight-color: transparent;
-      min-height: 36px;
-    }
-
-    .btn-copy:hover { background: var(--tg-accent-hover); }
-    .btn-copy:active { transform: scale(0.98); }
-    .btn-copy.copied {
-      background: var(--tg-success);
-    }
-    .btn-copy.copied i { opacity: 0; }
-    .btn-copy .check { display: none; }
-    .btn-copy.copied .check { display: inline; }
-    .btn-copy.copied .copy-icon { display: none; }
-
-    .note {
-      max-width: 560px;
-      margin: 0 auto;
-      font-size: 0.8rem;
-      color: var(--tg-text-muted);
-      line-height: 1.5;
-      text-align: center;
-    }
-
-    .note strong { color: var(--tg-text); font-weight: 500; }
-
-    @media (min-width: 480px) {
-      .grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 0.75rem; }
-      .card { padding: 1.1rem; }
-    }
-
     @media (prefers-reduced-motion: reduce) {
-      .card { animation: none; }
-      .card:hover { transform: none; }
+      body::before, body::after { animation: none; }
     }
   </style>
 </head>
-<body>
-  <header class="header">
-    <h1>VPN подписки</h1>
-    <p>Укороченные списки для обхода блокировок. Выберите номер — нажмите «Скопировать» — вставьте ссылку в клиент.</p>
-    <a class="github-link" href="https://github.com/Hidashimora/free-vpn-anti-rkn" target="_blank" rel="noopener noreferrer" aria-label="Репозиторий на GitHub">
-      <i class="fab fa-github" aria-hidden="true"></i>
-      GitHub
-    </a>
+<body class="min-h-screen bg-gray-50 text-gray-900 dark:bg-brand-dark dark:text-gray-100 transition-colors font-sans antialiased"
+      x-data="{
+        filterType: 'all',
+        base: 'https://raw.githubusercontent.com/hidashimora/hidashimora.github.io/main/configs/',
+        recommended: [1, 6, 22, 23, 24, 25],
+        sni: [26],
+        configs: Array.from({ length: 26 }, (_, i) => ({ id: i + 1 })),
+        get filtered() {
+          return this.configs.filter(c => {
+            if (this.filterType === 'recommended') return this.recommended.includes(c.id);
+            if (this.filterType === 'sni') return this.sni.includes(c.id);
+            return true;
+          });
+        },
+        isRecommended(id) { return this.recommended.includes(id); },
+        isSni(id) { return this.sni.includes(id); },
+        copyUrl(url, btn) {
+          navigator.clipboard.writeText(url).then(() => {
+            btn.classList.add('!bg-green-600');
+            btn.querySelector('.copy-text').textContent = 'Скопировано!';
+            btn.querySelector('.fa-copy').classList.add('hidden');
+            btn.querySelector('.fa-check').classList.remove('hidden');
+            setTimeout(() => {
+              btn.classList.remove('!bg-green-600');
+              btn.querySelector('.copy-text').textContent = 'Скопировать';
+              btn.querySelector('.fa-copy').classList.remove('hidden');
+              btn.querySelector('.fa-check').classList.add('hidden');
+            }, 2000);
+          }).catch(() => {
+            btn.querySelector('.copy-text').textContent = 'Ошибка';
+            setTimeout(() => { btn.querySelector('.copy-text').textContent = 'Скопировать'; }, 1500);
+          });
+        }
+      }">
+  <!-- Header -->
+  <header class="sticky top-0 z-50 backdrop-blur-xl bg-white/80 dark:bg-brand-dark/80 border-b border-gray-200 dark:border-gray-700 shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="w-9 h-9 rounded-xl bg-brand-blue/20 flex items-center justify-center text-brand-blue dark:text-blue-400">
+          <i class="fa-solid fa-shield-halved"></i>
+        </div>
+        <span class="font-bold text-lg tracking-tight hidden sm:inline">VPN подписки</span>
+      </div>
+      <a href="https://github.com/Hidashimora/free-vpn-anti-rkn" target="_blank" rel="noopener noreferrer"
+         class="flex items-center gap-2 px-4 py-2 rounded-xl bg-gray-100 dark:bg-white/5 hover:bg-gray-200 dark:hover:bg-white/10 text-gray-700 dark:text-gray-200 font-medium transition-all">
+        <i class="fab fa-github text-lg"></i>
+        <span class="hidden sm:inline">GitHub</span>
+      </a>
+    </div>
   </header>
 
-  <main class="grid" id="grid" aria-label="Ссылки на подписки 1–26"></main>
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 py-8 sm:py-12 relative z-0">
+    <!-- Hero -->
+    <div class="text-center mb-10 sm:mb-14">
+      <h1 class="text-3xl sm:text-4xl font-extrabold mb-3 tracking-tight">Укороченные VPN подписки</h1>
+      <p class="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-sm sm:text-base">
+        Коллекция <strong>V2Ray</strong> / <strong>VLESS</strong> / <strong>Hysteria</strong> / <strong>Trojan</strong> / <strong>VMess</strong>. Обновляются <strong>раз в минуту</strong>. Скачали ссылку — вставили в клиент — подключились.
+      </p>
+    </div>
 
-  <p class="note"><strong>Использование:</strong> вставьте скопированную ссылку в настройках подписки в приложении (v2rayNG, NekoRay, Throne, Hiddify, V2Box и др.). Список №26 — обход SNI/CIDR.</p>
+    <!-- 3 steps -->
+    <div class="grid sm:grid-cols-3 gap-4 sm:gap-6 mb-10 sm:mb-14">
+      <div class="bg-white/70 dark:bg-brand-panel/70 backdrop-blur-md p-6 rounded-2xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-all">
+        <div class="w-12 h-12 rounded-xl bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center text-blue-600 dark:text-blue-400 mb-4">
+          <i class="fa-solid fa-copy text-xl"></i>
+        </div>
+        <h3 class="font-bold text-lg mb-1">1. Скопируйте</h3>
+        <p class="text-gray-500 dark:text-gray-400 text-sm">Выберите список ниже и нажмите «Скопировать».</p>
+      </div>
+      <div class="bg-white/70 dark:bg-brand-panel/70 backdrop-blur-md p-6 rounded-2xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-all">
+        <div class="w-12 h-12 rounded-xl bg-purple-100 dark:bg-purple-900/30 flex items-center justify-center text-purple-600 dark:text-purple-400 mb-4">
+          <i class="fa-solid fa-file-import text-xl"></i>
+        </div>
+        <h3 class="font-bold text-lg mb-1">2. Импортируйте</h3>
+        <p class="text-gray-500 dark:text-gray-400 text-sm">Вставьте ссылку в клиент (v2rayNG, Throne, Hiddify и др.).</p>
+      </div>
+      <div class="bg-white/70 dark:bg-brand-panel/70 backdrop-blur-md p-6 rounded-2xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-all">
+        <div class="w-12 h-12 rounded-xl bg-emerald-100 dark:bg-emerald-900/30 flex items-center justify-center text-emerald-600 dark:text-emerald-400 mb-4">
+          <i class="fa-solid fa-bolt text-xl"></i>
+        </div>
+        <h3 class="font-bold text-lg mb-1">3. Подключитесь</h3>
+        <p class="text-gray-500 dark:text-gray-400 text-sm">Запустите проверку пинга и выберите сервер.</p>
+      </div>
+    </div>
 
-  <script>
-    (function () {
-      var base = 'https://raw.githubusercontent.com/hidashimora/hidashimora.github.io/main/configs/';
-      var grid = document.getElementById('grid');
+    <!-- Filters -->
+    <div class="flex flex-wrap items-center gap-3 mb-6">
+      <span class="text-xs font-bold text-gray-400 uppercase tracking-wider hidden sm:inline">Фильтр:</span>
+      <div class="flex flex-wrap gap-2">
+        <button @click="filterType = 'all'"
+                :class="filterType === 'all' ? 'bg-brand-blue text-white shadow-md border-brand-blue' : 'bg-white dark:bg-white/5 text-gray-700 dark:text-gray-300 border-gray-200 dark:border-gray-600'"
+                class="px-4 py-2 rounded-xl text-sm font-bold border-2 transition-all">
+          Все
+        </button>
+        <button @click="filterType = 'recommended'"
+                :class="filterType === 'recommended' ? 'bg-amber-400 text-amber-900 shadow-md border-amber-400' : 'bg-amber-400/10 text-amber-700 dark:text-amber-400 border-transparent'"
+                class="px-3 py-2 rounded-xl text-xs font-bold border-2 transition-all flex items-center gap-1.5">
+          <i class="fa-solid fa-star text-[10px]"></i>
+          Рекомендованные
+        </button>
+        <button @click="filterType = 'sni'"
+                :class="filterType === 'sni' ? 'bg-purple-600 text-white shadow-md border-purple-600' : 'bg-purple-600/10 text-purple-600 dark:text-purple-400 border-transparent'"
+                class="px-3 py-2 rounded-xl text-xs font-bold border-2 transition-all flex items-center gap-1.5">
+          <i class="fa-solid fa-unlock-keyhole text-[10px]"></i>
+          SNI/CIDR
+        </button>
+      </div>
+    </div>
 
-      for (var i = 1; i <= 26; i++) {
-        var url = base + i + '.txt';
-        var card = document.createElement('div');
-        card.className = 'card';
-        card.style.animationDelay = (i - 1) * 0.02 + 's';
-        card.innerHTML =
-          '<span class="card-num">№' + i + '</span>' +
-          '<span class="card-label">Подписка</span>' +
-          '<button type="button" class="btn-copy" data-url="' + url.replace(/"/g, '&quot;') + '" aria-label="Скопировать ссылку ' + i + '">' +
-          '<i class="far fa-copy copy-icon" aria-hidden="true"></i>' +
-          '<i class="fas fa-check check" aria-hidden="true"></i>' +
-          ' Скопировать</button>';
-        grid.appendChild(card);
-      }
+    <!-- Cards grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+      <template x-for="config in filtered" :key="config.id">
+        <div class="bg-white dark:bg-brand-panel rounded-2xl border border-gray-200 dark:border-gray-700 p-5 shadow-sm hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 flex flex-col">
+          <div class="flex items-start justify-between mb-4">
+            <span class="font-extrabold text-3xl text-gray-900 dark:text-white">#<span x-text="config.id"></span></span>
+            <div class="flex flex-col gap-1 items-end">
+              <template x-if="isRecommended(config.id)">
+                <span class="bg-amber-400 text-amber-900 text-[9px] font-bold px-2 py-0.5 rounded-lg uppercase">Рекоменд.</span>
+              </template>
+              <template x-if="isSni(config.id)">
+                <span class="bg-purple-600 text-white text-[9px] font-bold px-2 py-0.5 rounded-lg uppercase">SNI/CIDR</span>
+              </template>
+            </div>
+          </div>
+          <p class="text-xs text-gray-500 dark:text-gray-400 mb-4">Подписка · ~¼ серверов</p>
+          <button type="button"
+                  :data-url="base + config.id + '.txt'"
+                  @click="copyUrl($event.currentTarget.getAttribute('data-url'), $event.currentTarget)"
+                  class="mt-auto w-full py-3 rounded-xl font-bold text-sm flex items-center justify-center gap-2 bg-brand-blue hover:bg-blue-600 text-white transition-all active:scale-[0.98]">
+            <i class="fa-regular fa-copy"></i>
+            <i class="fa-solid fa-check hidden"></i>
+            <span class="copy-text">Скопировать</span>
+          </button>
+        </div>
+      </template>
+    </div>
 
-      grid.addEventListener('click', function (e) {
-        var btn = e.target.closest('.btn-copy');
-        if (!btn) return;
-        var url = btn.getAttribute('data-url');
-        navigator.clipboard.writeText(url).then(function () {
-          btn.classList.add('copied');
-          btn.innerHTML = '<i class="fas fa-check" aria-hidden="true"></i> Скопировано';
-          setTimeout(function () {
-            btn.classList.remove('copied');
-            btn.innerHTML = '<i class="far fa-copy copy-icon" aria-hidden="true"></i><i class="fas fa-check check" aria-hidden="true"></i> Скопировать';
-          }, 2000);
-        }).catch(function () {
-          btn.textContent = 'Ошибка';
-          setTimeout(function () {
-            btn.innerHTML = '<i class="far fa-copy" aria-hidden="true"></i> Скопировать';
-          }, 1500);
-        });
-      });
-    })();
-  </script>
+    <!-- Empty state -->
+    <div x-show="filtered.length === 0" x-cloak class="text-center py-16 bg-white dark:bg-brand-panel rounded-2xl border-2 border-dashed border-gray-200 dark:border-gray-700">
+      <i class="fa-solid fa-filter text-4xl text-gray-300 dark:text-gray-600 mb-4"></i>
+      <p class="text-gray-500 dark:text-gray-400 font-medium">Нет списков по выбранному фильтру</p>
+      <button @click="filterType = 'all'" class="mt-4 px-6 py-2 rounded-xl bg-brand-blue text-white font-bold hover:bg-blue-600 transition">Показать все</button>
+    </div>
+
+    <!-- Note -->
+    <p class="mt-10 text-center text-sm text-gray-500 dark:text-gray-400 max-w-xl mx-auto">
+      В <a href="https://github.com/AvenCores/goida-vpn-configs" class="text-brand-blue dark:text-blue-400 hover:underline">AvenCores/goida-vpn-configs</a> рекомендуются списки <strong>1, 6, 22, 23, 24, 25</strong>. Список <strong>№26</strong> — для обхода блокировок по SNI/CIDR (белые списки).
+    </p>
+  </main>
 </body>
 </html>
