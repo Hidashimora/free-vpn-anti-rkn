@@ -6,6 +6,7 @@
   <title>Free configs</title>
   <meta name="description" content="Укороченные VPN-подписки V2Ray, VLESS, Hysteria, Trojan, VMess. Обновление раз в минуту.">
   <link rel="icon" href="icon.svg.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg.svg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
   <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -58,7 +59,7 @@
     }
   </style>
 </head>
-<body class="min-h-screen bg-mesh font-sans antialiased"
+<body class="min-h-screen bg-mesh font-sans antialiased overflow-x-hidden"
       x-data="{
         filterType: 'all',
         base: 'https://raw.githubusercontent.com/hidashimora/hidashimora.github.io/main/configs/',
@@ -106,7 +107,7 @@
     </div>
   </header>
 
-  <main class="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12 overflow-x-hidden">
     <section class="text-center mb-10 sm:mb-12">
       <h1 class="text-2xl sm:text-3xl font-bold text-[#e4e4e7] mb-2 tracking-tight">Подписки без лагов</h1>
       <p class="text-[#71717a] text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
@@ -139,9 +140,12 @@
         <div class="card-glow rounded-xl border border-white/10 bg-[#141418] p-4 sm:p-5 shadow-lg hover:border-white/15 transition-all duration-300 animate-card-in"
              :style="'animation-delay: ' + (index * 35) + 'ms'">
           <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-            <div class="flex items-center gap-3 min-w-0">
-              <span class="text-xl font-bold text-[#e4e4e7] shrink-0" x-text="config.id === 26 ? 'Конфиг номер 26 (Обход SNI/CIDR белых списков)' : 'Конфиг номер ' + config.id"></span>
-              <div class="flex flex-wrap gap-1.5">
+            <div class="flex items-center gap-3 min-w-0 flex-1">
+              <div class="min-w-0">
+                <span class="text-xl font-bold text-[#e4e4e7] block">Конфиг номер <span x-text="config.id"></span></span>
+                <span class="text-sm font-medium text-violet-400/90 block mt-0.5" x-show="config.id === 26">Обход SNI/CIDR белых списков</span>
+              </div>
+              <div class="flex flex-wrap gap-1.5 shrink-0">
                 <template x-if="isRecommended(config.id)">
                   <span class="text-[10px] font-semibold px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 border border-amber-500/30">Рекоменд.</span>
                 </template>
