@@ -4,7 +4,8 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '0 * * * *'
+    # Проверяем обновления каждые 10 мин (исходные списки goida обновляются ~каждые 9 мин)
+    - cron: '*/10 * * * *'
   workflow_dispatch:
 
 jobs:
