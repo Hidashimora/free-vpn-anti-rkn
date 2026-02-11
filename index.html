@@ -4,24 +4,190 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>VPN подписка</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 480px; margin: 2rem auto; padding: 0 1rem; }
-    h1 { font-size: 1.25rem; }
-    a { color: #0969da; word-break: break-all; }
-    .url-box { background: #f6f8fa; padding: 0.75rem; border-radius: 6px; margin: 1rem 0; }
-    .url-box a { display: block; }
-    p { color: #57606a; font-size: 0.9rem; }
+    :root {
+      --bg: #f5f5f7;
+      --card: #ffffff;
+      --text: #1d1d1f;
+      --text-secondary: #6e6e73;
+      --accent: #0071e3;
+      --accent-hover: #0077ed;
+      --border: rgba(0, 0, 0, 0.08);
+      --shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+      --radius: 18px;
+      --radius-sm: 12px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 520px;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      color: var(--accent);
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      margin: 0 0 0.5rem 0;
+    }
+
+    .subtitle {
+      font-size: 1.125rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      margin: 0 0 2.5rem 0;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 1.5rem 1.75rem;
+      margin-bottom: 1.5rem;
+      border: 1px solid var(--border);
+    }
+
+    .url-label {
+      font-size: 0.8125rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      margin-bottom: 0.5rem;
+    }
+
+    .url-box {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .url-text {
+      flex: 1;
+      min-width: 0;
+      font-size: 0.875rem;
+      font-family: 'SF Mono', 'Monaco', 'Consolas', monospace;
+      color: var(--text);
+      background: var(--bg);
+      padding: 0.875rem 1rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      word-break: break-all;
+    }
+
+    .btn-copy {
+      flex-shrink: 0;
+      font-family: inherit;
+      font-size: 0.9375rem;
+      font-weight: 500;
+      color: #fff;
+      background: var(--accent);
+      border: none;
+      padding: 0.875rem 1.5rem;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .btn-copy:hover {
+      background: var(--accent-hover);
+    }
+
+    .btn-copy:active {
+      transform: scale(0.98);
+    }
+
+    .btn-copy.copied {
+      background: #34c759;
+    }
+
+    .note {
+      font-size: 0.9375rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    .note strong {
+      color: var(--text);
+      font-weight: 500;
+    }
   </style>
 </head>
 <body>
-  <h1>VPN подписка</h1>
-  <p>В приложении VPN укажи ссылку на подписку (Subscription URL):</p>
-  <div class="url-box">
-    <a href="./vpn.txt" id="sub">https://hidashimora.github.io/vpn.txt</a>
+  <div class="container">
+    <p class="badge">Подписка</p>
+    <h1>VPN конфиги</h1>
+    <p class="subtitle">Одна ссылка для приложения. Обновляется автоматически каждый час.</p>
+
+    <div class="card">
+      <div class="url-label">Ссылка на подписку (Subscription URL)</div>
+      <div class="url-box">
+        <input type="text" class="url-text" id="url" readonly
+          value="https://raw.githubusercontent.com/hidashimora/hidashimora.github.io/main/vpn.txt"
+          aria-label="Ссылка на подписку">
+        <button type="button" class="btn-copy" id="copyBtn" aria-label="Скопировать ссылку">Скопировать</button>
+      </div>
+    </div>
+
+    <p class="note"><strong>Как использовать:</strong> вставь эту ссылку в настройках подписки в приложении VPN (v2rayN, Clash, Nekoray и др.). В списке примерно четверть конфигов от исходного источника.</p>
   </div>
-  <p>Конфигов в подписке примерно четверть от исходного списка (обновление раз в час).</p>
+
   <script>
-    document.getElementById('sub').href = new URL('vpn.txt', location.href).href;
+    (function () {
+      var urlInput = document.getElementById('url');
+      var copyBtn = document.getElementById('copyBtn');
+
+      function copyUrl() {
+        urlInput.select();
+        urlInput.setSelectionRange(0, 99999);
+        try {
+          navigator.clipboard.writeText(urlInput.value);
+          copyBtn.textContent = 'Скопировано';
+          copyBtn.classList.add('copied');
+          setTimeout(function () {
+            copyBtn.textContent = 'Скопировать';
+            copyBtn.classList.remove('copied');
+          }, 2000);
+        } catch (e) {
+          copyBtn.textContent = 'Ошибка';
+          setTimeout(function () { copyBtn.textContent = 'Скопировать'; }, 1500);
+        }
+      }
+
+      copyBtn.addEventListener('click', copyUrl);
+    })();
   </script>
 </body>
 </html>
