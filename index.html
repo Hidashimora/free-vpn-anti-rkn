@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Free configs</title>
   <meta name="description" content="Укороченные VPN-подписки V2Ray, VLESS, Hysteria, Trojan, VMess. Обновление раз в минуту.">
+  <link rel="icon" href="icon.svg.svg" type="image/svg+xml">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
   <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -15,14 +16,12 @@
       background: #0a0a0d;
       color: #e4e4e7;
     }
-    /* Тонкая сетка для глубины */
     .bg-mesh {
       background-image:
         linear-gradient(rgba(255,255,255,.02) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255,255,255,.02) 1px, transparent 1px);
       background-size: 48px 48px;
     }
-    /* Свечение под карточкой при наведении */
     .card-glow {
       position: relative;
     }
@@ -42,7 +41,6 @@
       pointer-events: none;
     }
     .card-glow:hover::before { opacity: 1; }
-    /* Появление карточек по очереди */
     @keyframes cardIn {
       from { opacity: 0; transform: translateY(14px); }
       to { opacity: 1; transform: translateY(0); }
@@ -97,7 +95,6 @@
           });
         }
       }">
-  <!-- Header -->
   <header class="sticky top-0 z-50 border-b border-white/5 bg-[#0a0a0d]/90 backdrop-blur-md">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 py-4 sm:py-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
       <h1 class="text-xl sm:text-2xl font-bold text-[#e4e4e7] tracking-tight">Free configs</h1>
@@ -110,15 +107,13 @@
   </header>
 
   <main class="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
-    <!-- Intro -->
     <section class="text-center mb-10 sm:mb-12">
       <h1 class="text-2xl sm:text-3xl font-bold text-[#e4e4e7] mb-2 tracking-tight">Подписки без лагов</h1>
       <p class="text-[#71717a] text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
-        26 укороченных списков (~¼ серверов). Копируйте ссылку — вставляйте в v2rayNG, Throne, Hiddify и подключайтесь.
+        Один клик — ссылка в буфере. Вставьте в клиент и подключайтесь.
       </p>
     </section>
 
-    <!-- Filters -->
     <nav class="flex flex-wrap items-center justify-center sm:justify-start gap-2 mb-8" aria-label="Фильтр списков">
       <button @click="filterType = 'all'"
               :class="filterType === 'all' ? 'bg-cyan-500/20 text-cyan-400 border-cyan-500/40' : 'bg-white/5 text-[#a1a1aa] border-white/10 hover:bg-white/10 hover:text-[#e4e4e7]'"
@@ -139,7 +134,6 @@
       </button>
     </nav>
 
-    <!-- Cards: full URL + copy -->
     <div class="space-y-4">
       <template x-for="(config, index) in filtered" :key="config.id">
         <div class="card-glow rounded-xl border border-white/10 bg-[#141418] p-4 sm:p-5 shadow-lg hover:border-white/15 transition-all duration-300 animate-card-in"
@@ -172,14 +166,12 @@
       </template>
     </div>
 
-    <!-- Empty -->
     <div x-show="filtered.length === 0" x-cloak class="text-center py-12 rounded-xl border border-dashed border-white/10 bg-[#141418]">
       <i class="fa-solid fa-filter text-3xl text-[#52525b] mb-3"></i>
       <p class="text-[#71717a] text-sm mb-4">Нет списков по выбранному фильтру</p>
       <button @click="filterType = 'all'" class="px-5 py-2 rounded-lg bg-cyan-500/20 text-cyan-400 border border-cyan-500/30 text-sm font-medium hover:bg-cyan-500/30 transition-colors">Показать все</button>
     </div>
 
-    <!-- Footer -->
     <footer class="mt-14 pt-8 pb-8 border-t border-white/5">
       <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6 text-sm">
         <a href="https://github.com/Hidashimora/free-vpn-anti-rkn" target="_blank" rel="noopener noreferrer"
