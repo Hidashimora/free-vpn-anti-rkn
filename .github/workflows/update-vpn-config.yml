@@ -18,15 +18,28 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch and reduce all 26 lists (1/4 configs each)
+      - name: Fetch and reduce all 26 lists (1/4 configs each, max 300)
         run: |
           mkdir -p configs
           BASE="https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/refs/heads/main/githubmirror"
+          MAX=300
           for i in $(seq 1 26); do
             curl -sLf "${BASE}/${i}.txt" -o full.txt || true
             touch full.txt
             grep -E '^(vless|trojan|vmess|ss|hy2)://' full.txt > filtered.txt || true
-            awk 'NR % 4 == 1' filtered.txt > new.txt
+            N=$(wc -l < filtered.txt)
+            if [ "$N" -eq 0 ]; then
+              cp filtered.txt new.txt
+            elif [ "$N" -lt "$MAX" ]; then
+              cp filtered.txt new.txt
+            else
+              quarter=$((N / 4))
+              if [ "$quarter" -le "$MAX" ]; then
+                awk 'NR % 4 == 1' filtered.txt > new.txt
+              else
+                awk -v T="$N" -v target="$MAX" 'int((NR-1)*target/T) != int((NR-2)*target/T)' filtered.txt > new.txt
+              fi
+            fi
             if [ ! -s new.txt ] && [ -s filtered.txt ]; then
               cp filtered.txt new.txt
             fi
