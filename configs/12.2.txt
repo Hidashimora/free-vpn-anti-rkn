@@ -1,16 +1,12 @@
 # Подписка 12.2.txt | .proxy (полный)
 ss://bm9uZTpmOGY3YUN6Y1BLYnNGOHAz@lil:360#%F0%9F%91%91
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMXY1ZzlGZWZkb08=@57.129.140.88:8388?type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40VPNConectd
-vless://09e485e1-241c-4d17-82b2-0dff1be3f61e@kvm.iranhosting.mom:55003?encryption=none&type=ws&host=rubika.ir&path=/&security=none#%F0%9F%8C%90%20WS-None%20%7C%20%40VPNConectd
-vless://a6eb1781-e671-4a63-ab3a-252079c69b8a@star.smile-loyal.fun:2083?encryption=none&type=tcp&headerType=none&security=none#%F0%9F%8C%90%20TCP-None%20%7C%20%40VPNConectd
-vless://8e0a63a9-e44c-42f3-8274-0cd1f282e3e7@ir.gafe-lorbad.ir:443?encryption=none&type=tcp&headerType=none&security=none#%F0%9F%8C%90%20TCP-None%20%7C%20%40VPNConectd
-vless://a4ffb383-a334-4075-b7a9-c291e51f827a@temp.myextraordinary.ir:8080?encryption=none&type=tcp&headerType=none&security=none#%F0%9F%8C%90%20TCP-None%20%7C%20%40VPNConectd
 vless://dbb66087-10c5-451e-8d97-ea179984bce2@79.141.169.152:443?type=tcp&encryption=none&security=reality&pbk=DV5H1RoEhSpU4YqZ6YIzl4NbCI6IGJGPLSCOCkkDR3A&fp=chrome&sni=www.cloudflare.com&sid=a7bf5154&spx=/&flow=xtls-rprx-vision#%F0%9F%87%AD%F0%9F%87%B0%20TCP-Reality%20%7C%20%40v2nodes
 vless://dcd61df6-e62d-46b7-83e6-d4a841f50e35@Cia.ihateyousali.sbs:2052?path=%2F&security=&encryption=none&host=sudo.ionosio.ir&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
 vless://e65f5330-1918-43b8-880c-27ca66d4042c@new.sordo.store:443?type=ws&encryption=none&path=%2F&host=new.sordo.store&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&sni=new.sordo.store#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
 vless://427fc44d-ae6c-48b0-ab80-c645699b38a5@vasl2.kaiserping.site:9096?security=none&encryption=none&host=telewebion.com%2C%2Bua.yektanet.com&headerType=http&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
 vless://427fc44d-ae6c-48b0-ab80-c645699b38a5@vasl2.kaiserping.site:9096?encryption=none&type=tcp&headerType=http&host=telewebion.com,+ua.yektanet.com&security=none#%F0%9F%8C%90%20TCP-None%20%7C%20%40vmessorg
 ss://YWVzLTI1Ni1nY206OEpDc1Bzc2ZnUzh0aVJ3aU1saEFSZz09@15.204.247.49:12000#%F0%9F%87%A9%F0%9F%87%AA%20TCP-None%20%7C%20%40v2nodes
+vless://09e485e1-241c-4d17-82b2-0dff1be3f61e@kvm.iranhosting.mom:55003?path=%2F&security=none&encryption=none&host=rubika.ir&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMXY1ZzlGZWZkb08@57.129.140.88:8388#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
 trojan://p701qmr2-2at9-6oie-0702-ho28itohnanr@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40Trick_mobil
 trojan://urbeyz85-3y97-7i4m-k3a4-ovb0opr7rjvg@127.0.0.1:2080?security=tls&type=tcp#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40Trick_mobil
@@ -120,6 +116,7 @@ trojan://telegram-id-directvpn@52.47.80.167:22223?security=tls&alpn=http/1.1&hea
 trojan://telegram-id-privatevpns@52.47.80.167:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40configraygan
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@52.47.80.167:22224?path=%2Ftelegram-channel-vlessconfig&security=tls&encryption=none&type=ws&sni=trojan.burgerip.co.uk#%F0%9F%8C%90%20WS-TLS%20%7C%20%40configraygan
 vless://4d0e0ed6-188a-43cd-a1ee-57c987a02e4b@snapp.ir:443?path=%2F&security=tls&encryption=none&alpn=h2,http/1.1&host=kharidfollower.ir&fp=chrome&type=ws&sni=kharidfollower.ir@vipV2rayNGnp#%F0%9F%8C%90%20WS-TLS%20%7C%20%40configraygan
+vless://8e0a63a9-e44c-42f3-8274-0cd1f282e3e7@ir.gafe-lorbad.ir:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40configraygan
 trojan://humanity@www.gossipglove.com:443?path=%2Fassignment&security=tls&fp=chrome&type=ws&sni=www.gossipglove.com#%F0%9F%8C%90%20WS-TLS%20%7C%20%40configraygan
 vless://eea43b1a-4411-4ff7-f5b4-a860a81cad63@18.153.207.52:28706?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40configraygan
 vless://4e0f7ef4-4ce6-4de6-bfb9-5b831436bedf@193.58.119.134:443?security=none&encryption=none&host=google.com&headerType=http&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40configraygan
@@ -132,6 +129,8 @@ vless://3af9ac85-698f-40ea-9299-0d0a2b9892b3@193.105.234.79:53078?security=reali
 vless://ede52d9c-2ce3-45d8-9f1a-f84ee2857155@hamrahiran.sorenashoping.xyz:44941?security=none&encryption=none&host=fast.com&headerType=http&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40configraygan
 vless://1893673b-0802-445a-9b0e-7de8d9991359@khaneh.berozsho.click:443?security=none&encryption=none&host=filmnet.com&headerType=http&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40configraygan
 vless://17b16eb9-c1d0-4c12-8520-0b400567d8e4@sr4.laptopstock7.com:3030?security=reality&encryption=none&pbk=wVG0SzD_MnGA_q_DtgzirtOY8bGIeZwxrHd7aoK8Uwk&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=tgju.org&sid=42c0b628ba6a42a9#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40configraygan
+vless://a4ffb383-a334-4075-b7a9-c291e51f827a@temp.myextraordinary.ir:8080?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40configraygan
+vless://a6eb1781-e671-4a63-ab3a-252079c69b8a@star.smile-loyal.fun:2083?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40configraygan
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMXY1ZzlGZWZkb08=@57.129.140.88:8388#%F0%9F%8C%90%20TCP-None%20%7C%20%40configraygan
 trojan://biS(YrwB,3L$@185.143.235.5:443?security=tls&headerType=none&type=tcp&sni=mydigipay.com#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40configraygan
 vless://e1111919-2a81-4847-a45c-68c7145a014d@193.151.135.92:15823?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40configraygan
@@ -2234,3 +2233,13 @@ vless://e911c552-3a98-41e0-b5fb-0dd3879887b7@2.144.4.185:80?path=%2Fapi%2Fv1%2Fi
 vless://281ca528-3ea5-4a4d-b531-818f6b4e785d@req.playshoptv.com:443?security=reality&encryption=none&pbk=PmPvtSJjLfQsKDqdzTMrnTCf131Z6bAzmCVgHU7MqgQ&headerType=none&fp=chrome&spx=%2F&type=tcp&sni=www.amazon.com&sid=3769cf03#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40VIPV2rayNGNP
 vless://37baee9d-896e-462c-9d76-5f2973c69af9@new.idbedam.com:1000?mode=multi&security=&encryption=none&type=grpc#%F0%9F%8C%90%20GRPC-None%20%7C%20%40filembad
 vless://6ce93423-adb2-4f01-8be8-7a160ae78bb8@new.idbedam.com:1000?security=none&type=grpc&headerType=&serviceName=&authority=&mode=multi#%F0%9F%8C%90%20GRPC-None%20%7C%20%40filembad
+vless://78d7bcb7-f5f4-4d0d-9cb7-6a9da1fbd57c@185.143.234.122:80?encryption=none&security=none&type=ws&host=w7.koremusic.ir&path=%2F#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
+vless://f8a75466-f1f2-4d1a-8b92-2506705b877b@193.151.134.247:8080?type=ws&encryption=none&path=%2F&host=&security=none#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
+vless://5a547d36-11c5-4397-ac23-c815885b8cd2@193.151.134.247:8080?type=ws&encryption=none&path=%2F&host=&security=none#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
+vless://5c2aa8fc-abb9-471f-b192-4811d800185b@193.151.134.247:8080?type=ws&encryption=none&path=%2F&host=&security=none#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
+vless://9901524b-525b-45f9-8f31-cd5f0df0c468@new.idbedam.com:1000?mode=multi&security=&encryption=none&type=grpc#%F0%9F%8C%90%20GRPC-None%20%7C%20%40filembad
+vless://a7a6f2e3-5733-4feb-b629-2f2ec17b992e@185.143.235.200:80/?type=ws&encryption=none&path=%2F&host=mmdmrxnetra-c9aa3c0e28-mrxmmd23.apps.ir-central1.arvancaas.ir&security=none#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
+vless://f8c6e733-54fe-49bc-a35b-87c466c22274@new.idbedam.com:1000?mode=multi&security=none&encryption=none&type=grpc#%F0%9F%8C%90%20GRPC-None%20%7C%20%40filembad
+ss://397e5b06-5adb-40b7-a9f7-314081aeaabc@dash.programming-coding.ir:26228?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+ss://59964617-bc08-452d-a092-2f66e2738d0b@openx01027.temp.veraspeed.ir:80?path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&security=none&encryption=none&host=byebye.22.avenflow.ir&type=ws#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+ss://89354e3c-5037-4ee1-a88e-201fa0501bc6@home.netabin.ir:8443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
