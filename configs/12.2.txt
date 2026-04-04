@@ -1,12 +1,5 @@
 # Подписка 12.2.txt | .proxy (полный)
 ss://bm9uZTpmOGY3YUN6Y1BLYnNGOHAz@lil:360#%F0%9F%91%91
-vless://16701dd7-3f22-483d-8a97-80501e5986a1@simcard.parhamm1.ir:80?encryption=none&type=tcp&headerType=http&host=mirror.arvancloud.ir&path=/#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
-vless://16701dd7-3f22-483d-8a97-80501e5986a1@simcard.parhamm1.ir:5066?encryption=none&type=tcp&headerType=http&host=speedtest.net&path=/#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
-vmess://eyJhZGQiOiAidHIxLmlyYW5pc2hvcHMuY29tIiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIm15a2V0LmlyIiwgImlkIjogImI4NTA3ZTBlLTg5ZjEtNTJiNS05YTI0LTYyNjMyY2I0MGIyOCIsICJpbnNlY3VyZSI6ICIwIiwgIm5ldCI6ICJ0Y3AiLCAicGF0aCI6ICIvIiwgInBvcnQiOiAiNDQzIiwgInBzIjogIlx1ZDgzY1x1ZGYxMCBUQ1AtTm9uZSB8IEBmaWxlbWJhZCIsICJzY3kiOiAiYXV0byIsICJzbmkiOiAiIiwgInRscyI6ICIiLCAidHlwZSI6ICJodHRwIiwgInYiOiAiMiJ9
-vless://16701dd7-3f22-483d-8a97-80501e5986a1@185.143.232.200:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=stream.parhamm2.ir&path=/&sni=stream.parhamm2.ir&fp=rando#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
-vless://16701dd7-3f22-483d-8a97-80501e5986a1@simcard.parhamm1.ir:80?security=none&allowInsecure=0&encryption=none&type=tcp&host=mirror.arvancloud.ir&path=/&headerType=http#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
-vless://16701dd7-3f22-483d-8a97-80501e5986a1@simcard.parhamm1.ir:5066?security=none&allowInsecure=0&encryption=none&type=tcp&host=speedtest.net&path=/&headerType=http#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
-vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@clyde.ns.cloudflare.com:2096?path=/XIXVPN?ed=2560&security=tls&encryption=none&insecure=0&host=hetz.x-smm.com&type=ws&allowInsecure=0&sni=hetz.x-smm.com#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
 vless://234e7684-18d1-40b8-b71b-066400c18ae6@mapi.timapsee.com:5003?encryption=none&type=tcp&headerType=none#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
 vless://0b2fe47a-f51c-4e00-85ba-eeae70addc80@217.25.56.173:443?security=&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
 vless://16701dd7-3f22-483d-8a97-80501e5986a1@185.143.232.200:443?security=tls&allowInsecure=0&encryption=none&type=ws&host=stream.parhamm2.ir&path=/&sni=stream.parhamm2.ir&fp=random#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
@@ -2325,3 +2318,7 @@ vless://f0394e73-2fa3-11f1-9fc2-960003f27045@final.idbedam.com:8443?security=non
 vless://bd2c7638-7f66-4fd0-8ca5-9c78cb4c3603@amvip.q2k.ir:80?encryption=none&security=none&type=ws&host=Amvip.yooring.ir&path=%2F#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
 vless://75fde681-ec64-4654-86fa-30732e8e179c@104.16.243.59:443?path=%2Fassets&security=tls&alpn=h3&encryption=none&insecure=0&host=nginx.nscl.ir&type=ws&allowInsecure=0&sni=NGINX.NSCl.IR#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
 vless://ab333c86-7f11-4729-be93-17be0102e95f@188.121.125.121:1130?mode=auto&path=%2F&security=&encryption=none&type=xhttp#%F0%9F%8C%90%20XHTTP-None%20%7C%20%40filembad
+vless://f17d4129-ee8b-48f4-baa6-89de1e906b8e@45.152.113.189:4440?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=files.moscownews24.ru&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20TCP-Reality%20%7C%20%40v2nodes
+vless://ab333c86-7f11-4729-be93-17be0102e95f@188.121.125.121:1130?mode=auto&path=%2F&security=none&encryption=none&type=xhttp#%F0%9F%8C%90%20XHTTP-None%20%7C%20%40filembad
+vless://bd2c7638-7f66-4fd0-8ca5-9c78cb4c3603@amvip.q2k.ir:80?security=none&allowInsecure=0&encryption=none&type=ws&host=Amvip.yooring.ir&path=/#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
+vless://ea7126d0-abd7-**44be**-b035-c3cd08935104@v2plus01754.temp.veraspeed.ir:80?path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&security=none&encryption=none&host=byebye.22.avenflow.ir&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
