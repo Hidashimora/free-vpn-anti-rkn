@@ -1,7 +1,5 @@
 # Подписка 12.2.txt | .proxy (полный)
 ss://bm9uZTpmOGY3YUN6Y1BLYnNGOHAz@lil:360#%F0%9F%91%91
-vless://c3c19bdf-2eff-49e0-9746-4c98206a67b0@104.18.26.90:8443?path=%2FnQrQ1eTYHqjVOYx6%3Fed%3D2560&security=tls&alpn=http%2F1.1&encryption=none&host=s1.mitivpn.workers.dev&fp=randomized&type=ws&sni=s1.MitIvpN.wOrkeRs.dEv#%F0%9F%87%BA%F0%9F%87%B8%20WS-TLS%20%7C%20%40manVPN
-vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.207.135:51615?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20TCP-None%20%7C%20%40manVPN
 trojan://snq1tiie-u7hr-l335-b3jx-jnrjkujxomiq@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40Trick_mobil
 trojan://oqt0qyv1-7425-yki7-uq1t-hfgsg6z702j5@127.0.0.1:2080?security=tls&type=tcp#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40Trick_mobil
 trojan://7aoqhp12-hqya-261k-11c9-n85p9a1nxcjg@127.0.0.1:4080?security=tls&type=tcp#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40Trick_mobil
@@ -179,6 +177,7 @@ vless://48ff2b70-e180-582f-8866-d9a2edeed5f5@51.158.206.8:23576?security=reality
 vless://4dde0df3-aa67-417c-882e-28beb3886961@138.124.105.75:443?security=reality&encryption=none&pbk=MlAC3MfcDZsPdQJ_lRzrJ95pY07GPy1GgCILbFyRMWk&headerType=none&fp=chrome&type=tcp&sni=nld.pinkweb.one&sid=7aedbcb49ddbb4c1#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40filembad
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@172.64.146.198:2096?path=%2F&security=tls&encryption=none&host=sni.111000.indevs.in&type=ws&sni=sni.111000.indevs.in#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@141.193.213.238:2096?path=%2F&security=tls&encryption=none&host=sni.jpmj.dev&type=ws&sni=sni.jpmj.dev#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
+vless://2eaef053-5fd6-4def-b234-d760690355ff@91.99.207.135:51615?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
 vless://fae38aae-0342-4752-834d-@172.237.128.199:443?mode=stream-one&path=%2F&security=none&encryption=none&type=xhttp#%F0%9F%8C%90%20XHTTP-None%20%7C%20%40filembad
 vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.120.57.119:22224?path=%2Ftelegram-channel-vlessconfig&security=tls&encryption=none&type=ws&sni=trojan.burgerip.co.uk#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
 vless://09ec436b-930a-42b1-8d2c-6addbafc8832@157.254.27.41:43504?security=reality&encryption=none&pbk=l2roflJeTPIn8TfTHzxmr14errgnp5Qea0Y20AOoQi0&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=apple.com&sid=57f89a78#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40filembad
@@ -195,6 +194,7 @@ vless://223e5111-34b2-4a3b-8daa-36ae6e84d1f5@user11.ionosio.ir:2052?path=%2F&sec
 vless://5dc15e15-f285-4a9d-959b-0e4fbdd77b63@cf.008500.xyz:443?path=%2F&security=tls&encryption=none&host=powered-by-surena.configfarsi6982dd6e0355e.workers.dev&type=ws&sni=powered-by-surena.configfarsi6982dd6e0355e.workers.dev#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
 vless://5774ae61-7402-41db-9388-1db9c43c11c3@84.200.33.52:8080?security=none&encryption=none&host=testspeed-foreign.tci.ir%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=http&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
 vless://6053689d-39d6-4005-b1bd-c0dce854f429@84.21.189.25:443?security=tls&encryption=none&alpn=h2&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=de-fast.chunkyvpn.shop#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40filembad
+vless://c3c19bdf-2eff-49e0-9746-4c98206a67b0@104.18.26.90:8443?path=%2FnQrQ1eTYHqjVOYx6%3Fed%3D2560&security=tls&encryption=none&alpn=http/1.1&host=s1.mitivpn.workers.dev&fp=randomized&type=ws&sni=s1.MitIvpN.wOrkeRs.dEv#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
 vless://8d2aeab8-ce98-47a6-84ec-d5b45d060b66@72.57.78.146:8443?path=%2Flives&security=tls&encryption=none&host=edt2.btxst.eu.cc&type=ws&sni=edt2.btxst.eu.cc#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
 vless://e033ef6e-ab4b-47d4-a523-ff568d2c8dbb@85.208.108.63:8443?security=reality&encryption=none&pbk=TH8C9sgNuMRVR3o5QehXPgYw8PWjoHrH2rVQF4JWwGI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=tradingview.com#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40filembad
 vless://cb213db5-803d-49dd-a7e2-46d938af0751@104.18.2.11:2082?path=%2F&security=none&encryption=none&host=amiroo-l43dac88-v2.amiroo-d8b.workers.dev&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
@@ -2383,3 +2383,12 @@ vmess://eyJhZGQiOiAiMTUxLjI0My4zLjU5IiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjog
 vless://c61c8adb-c674-4e0c-9ccf-d0e674434efe@d1.msjia8844.site:2099?security=none&encryption=none&host=cafeariel.ir&headerType=http&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
 vless://8256d311-6dae-43e3-b002-05d531effff3@link2x05376_4.temp.veraspeed.ir:80?path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&security=none&encryption=none&host=byebye.22.avenflow.ir&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
 vless://6da91f46-d48b-43a3-ac70-f9d8a1dcb60d@31.47.45.124:56052?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+vless://e4ba5a8e-96dd-4f13-9e7b-64e8c50f5e9f@94.182.115.141:23371?encryption=none&security=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+vless://e013cae2-2922-4874-914d-abd98eb8342d@ww.parspas.ir:8880?path=%2F&security=none&encryption=none&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
+vless://9e769ce1-34be-4e3f-b0a6-823f30eb8f69@104.17.147.22:2087?path=%2F&security=tls&encryption=none&host=smart.v2plusify.org&type=ws&sni=smart.v2plusify.org#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
+vless://97672826-3c6f-4143-8171-7153758198e6@twt.ghapol.ir:80?encryption=none&host=a.mesiandrol.ir&path=%2F&security=none&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
+vless://c4964970-2ea5-44e4-a75d-92479b6f8db3@twt.ghapol.ir:80?encryption=none&host=arb.shalkhi.ir&path=%2F&security=none&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
+vless://b28eb861-1748-4200-ba72-278669edc33b@104.16.16.135:80?path=%2F%3Fed%3D2560&security=none&encryption=none&host=coco.mahmoodchitooz.dpdns.org&type=ws#%F0%9F%87%BA%F0%9F%87%B8%20WS-None%20%7C%20%40manVPN
+vless://6d9ced8b-5e9d-4e0b-b2b5-7b66ed1bd491@t1.heroicshop.ir:1885?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40manVPN
+vless://27bc6915-84bb-4901-9490-3c7e95d22e46@a.iup.ir1-one.ir:80?path=%2Fdl%3Fed%3D2048&security=none&encryption=none&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
+vless://a2a7636b-25d9-4f83-941c-ba88cef9e2e2@102.37.155.79:443?mode=auto&path=%2Fstream%2Fcubic&security=reality&encryption=none&pbk=2Y_6l4fk42l4SRZ2XKPQHu27uEWCWZnYOdh_dtQzcAI&fp=chrome&spx=%2F&type=xhttp&sni=mirror.arvancloud.ir&sid=33a6#%F0%9F%8C%90%20XHTTP-Reality%20%7C%20%40filembad
