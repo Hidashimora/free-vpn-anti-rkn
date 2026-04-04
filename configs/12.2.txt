@@ -1,9 +1,5 @@
 # Подписка 12.2.txt | .proxy (полный)
 ss://bm9uZTpmOGY3YUN6Y1BLYnNGOHAz@lil:360#%F0%9F%91%91
-trojan://telegram-id-directvpn@3.120.57.119:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40DirectVPN
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.120.57.119:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#%F0%9F%87%A9%F0%9F%87%AA%20WS-TLS%20%7C%20%40VlessConfig
-trojan://telegram-id-privatevpns@3.120.57.119:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%F0%9F%87%A9%F0%9F%87%AA%20TCP-TLS%20%7C%20%40PrivateVPNs
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#%F0%9F%87%AC%F0%9F%87%A7%20TCP-None%20%7C%20%40v2nodes
 vless://aba7b0b8-4efd-4987-8b7d-e890d1df1d4b@newgen.lightxpro.shop:2002?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
 vless://58a3c9e4-0163-4794-84c5-2593a351c67f@h.kickfa.ir:8080?path=%2F&security=none&encryption=none&host=h.kickfa.ir&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
 vless://a1f346fa-c7e3-4506-9372-5e540ad58671@81.12.54.14:1010?encryption=none&type=tcp&headerType=none#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
@@ -97,8 +93,11 @@ vless://1027b850-de79-4a94-b337-eccdac28e141@104.18.32.47:443?path=%2Fvless&secu
 vless://1027b850-de79-4a94-b337-eccdac28e141@144.24.126.26:443?path=%2Fvless&security=tls&encryption=none&host=g.sandesh.qzz.io&type=ws&sni=g.sandesh.qzz.io#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
 vless://1893673b-0802-445a-9b0e-7de8d9991359@khaneh.berozsho.click:443?security=none&encryption=none&host=filmnet.com&headerType=http&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
 vless://1027b850-de79-4a94-b337-eccdac28e141@172.64.155.209:443?path=%2Fvless&security=tls&encryption=none&host=g.sandesh.qzz.io&type=ws&sni=g.sandesh.qzz.io#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
+trojan://telegram-id-privatevpns@3.120.57.119:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40filembad
+trojan://telegram-id-directvpn@3.120.57.119:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg007150y7y.cybervena.com:50099#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@namrcg001611cy4.cybervena.com:50099#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.120.57.119:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
 vless://148709e4-402b-48dd-8892-ed39b55ea45c@172.67.132.185:80?path=%2FTelegram%40V2ray_Alpha%2F%3Fed%3D2560&security=none&encryption=none&host=entezar.loseyourself.dpdns.org&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
 vless://1c7fcc38-e6be-43c5-875f-b8de2516b9f2@5.182.38.91:17267/?type=tcp&encryption=none&sni=yahoo.com&fp=chrome&security=reality&pbk=SnWZg6ORcQepuWLI1EVCTTVc4KyfDiGWR4o_CXCMhgk&sid=4ae260#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40filembad
 vless://2c11d07b-1036-46a7-91fb-ec91dd480db3@85.133.207.94:8880?path=%2F&security=none&encryption=none&host=back.unknownservice.top&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
@@ -2375,3 +2374,15 @@ trojan://py43nb56-eppt-yfda-bmfs-jsvks798v70m@127.0.0.1:2080?security=tls&type=t
 trojan://3l10ixvk-x1ew-rgek-onzo-ywjidi4esy4a@127.0.0.1:4080?security=tls&type=tcp#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40Trick_mobil
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyREdxM2p2VlJnNW4zQ2N4bXlzR0sya21yZ0plU05vZjEyQTc2Y1p2VnhxUHBldHlDMVhFY2lDRnVmcTV4S3ZSV0dHbktWZW1icFRodVVTUWhiWjdHTXNaWTRVVnhFQnc@backup.fleetfoxi.link:44884#%F0%9F%8C%90%20TCP-None%20%7C%20%40Trick_mobil
 vless://4ab11980-7400-4737-9825-6ecd0b7b4b0b@link2x05376_5.temp.veraspeed.ir:80?path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&security=none&encryption=none&host=byebye.22.avenflow.ir&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
+trojan://telegram-id-directvpn@3.72.189.223:22223?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40DirectVPN
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.72.189.223:22224?type=ws&security=tls&path=%2Ftelegram-channel-vlessconfig&sni=trojan.burgerip.co.uk#%F0%9F%87%A9%F0%9F%87%AA%20WS-TLS%20%7C%20%40VlessConfig
+trojan://telegram-id-privatevpns@3.72.189.223:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%F0%9F%87%A9%F0%9F%87%AA%20TCP-TLS%20%7C%20%40PrivateVPNs
+vless://9b589b18-768a-4707-a17a-66e694311f11@link.mizbanertebatfarda.site:3010?path=%2Fws%3Fed%3D2048&security=&encryption=none&host=myket.ir&type=ws&sni=myket.ir#%F0%9F%8C%90%20WS-TLS%20%7C%20%40filembad
+vless://8b9500ac-413b-44aa-b14c-b4b888a05614@technomobile.mytopmedia.site:69?security=&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+vless://f2032be3-a30f-4ba0-9f18-7abc10f4a25e@www.p4free.site:28254?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+vless://aa3da0c2-398b-41aa-90d6-5b970f3bcb5d@2.144.23.193:8291?type=tcp&encryption=none&security=none#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206QVNNa0N3L1NNQThNelpLOHR2NXZOdz09OkFTTWtDdy9TTUE4TXpaSzh0djV2Tnc9PQ@142.171.65.106:8388#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+vmess://eyJhZGQiOiAiMTUxLjI0My4zLjU5IiwgImFpZCI6ICIwIiwgImFscG4iOiAiIiwgImZwIjogIiIsICJob3N0IjogIiIsICJpZCI6ICI0ODhlODdlZS0wNzRjLTRlNTMtOThlYS02MzkyMjg4YmRjNzEiLCAiaW5zZWN1cmUiOiAiMCIsICJuZXQiOiAidGNwIiwgInBhdGgiOiAiIiwgInBvcnQiOiAiMTc4NTgiLCAicHMiOiAiXHVkODNjXHVkZjEwIFRDUC1Ob25lIHwgQGZpbGVtYmFkIiwgInNjeSI6ICJhdXRvIiwgInNuaSI6ICIiLCAidGxzIjogIiIsICJ0eXBlIjogIm5vbmUiLCAidiI6ICIyIn0=
+vless://c61c8adb-c674-4e0c-9ccf-d0e674434efe@d1.msjia8844.site:2099?security=none&encryption=none&host=cafeariel.ir&headerType=http&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+vless://8256d311-6dae-43e3-b002-05d531effff3@link2x05376_4.temp.veraspeed.ir:80?path=%2Ffilimo-video%2F177430809054030600%2F1774365690%2Fcb857b0770767a2b38b3ebc9d4c44d7fc5630fdd%2F196328x264new1-1080p.mp4%2Fs-20-v1-a1.ts&security=none&encryption=none&host=byebye.22.avenflow.ir&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
