@@ -1,10 +1,6 @@
 # Подписка 12.2.txt | .proxy (полный)
 ss://bm9uZTpmOGY3YUN6Y1BLYnNGOHAz@lil:360#%F0%9F%91%91
-vless://c2c826d5-2d06-463d-8429-3481ab3dce3d@dl.ir.decentralvps.ir:2000?encryption=none&security=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
-ss://YWVzLTEyOC1nY206SGU2QXJEVHlHZjJlPT0%3D@79.127.96.153:7662#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
-vless://00a53b45-9207-484e-a100-a0fb4ae559c3@217.60.243.101:29557?path=%2F%3Fed%3D2080&security=none&encryption=none&host=varzesh3.com&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
-vless://0e185d94-6477-4f47-a402-acc59aa4bab1@alinka.satarv.ir:80?security=none&allowInsecure=0&encryption=none&type=ws&path=/#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
-vless://0e185d94-6477-4f47-a402-acc59aa4bab1@alinka.satarv.ir:80?encryption=none&type=ws&path=/&security=none#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
+vless://0e185d94-6477-4f47-a402-acc59aa4bab1@alinka.satarv.ir:80?path=%2F&security=none&encryption=none&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
 vless://09ff1044-2b05-4e76-a832-cacd570a5a69@im2.newdesigne.ir:80?encryption=none&host=&path=%2F&security=none&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5S1ZNb0IzQXdpVEV6bnBub3EyRllS@193.47.60.186:28687#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
 vmess://eyJ2IjogIjIiLCAicHMiOiAiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IFRDUC1Ob25lIHwgQHYybm9kZXMiLCAiYWRkIjogIjgyLjE5OC4yNDYuMjUwIiwgInBvcnQiOiAiMTgwIiwgInR5cGUiOiAibm9uZSIsICJpZCI6ICJkMTNmYzJmNS0zZTA1LTQ3OTUtODFlYi00NDE0M2EwOWU1NTIiLCAiYWlkIjogIjAiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAiaG9zdCI6ICIiLCAidGxzIjogIiIsICJza2lwLWNlcnQtdmVyaWZ5IjogdHJ1ZX0=
@@ -2448,3 +2444,12 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2Njc1Y2JmNjJkNmEzYTRm@57.129.95.45:11201#%F0
 vless://55cb8179-ce11-4ec8-a03c-333f797265f9@162.159.14.88:80/?type=ws&encryption=none&flow=&host=long-forest-ac72.salari1382m.workers.dev&path=/#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ=@r3mrcg001286ek2.cybervena.com:50099#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
 vless://513f4fab-c7df-44ed-989b-808c4a80f1ee@final.idbede.com:8443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+vless://bc07a59b-1b90-42d7-b61c-38d280554363@null.pssilver.xyz:51528?encryption=none&type=tcp&headerType=none&security=none#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+vless://43488128-319e-f480-64ea-0acdc712e2a8@64.176.166.143:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=tboI265nKvT77HoZPyA6bgZNuLap_Jy-XvAx2-4Rcwk&security=reality&sid=0c1553316a645758&sni=store.steampowered.com&type=tcp#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40filembad
+vless://43488128-319e-f480-64ea-0acdc712e2a8@77.81.98.70:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=kkRsTNjRh_XrrTM6eZllllldzoL5Z9IqlBkDtmYLMhw&security=reality&sid=9b4fc5a116efd6c8&sni=www.aliexpress.com&type=tcp#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40filembad
+vless://ec486464-46c8-4f80-acc1-a3ccdcf01744@169.40.2.244:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=6OvNu3z9uVh1Br6hIOQOz4Qai7xuykdjcvtqiLqNRUs&security=reality&sid=95fe9eef&sni=hls-svod.itunes.apple.com&type=tcp#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40filembad
+vless://c8d1c6d3-388f-48fc-a8f0-ed90d955d096@194.87.106.31:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw&security=reality&sid=6ba85179e30d4fc2&sni=www.google.com&type=tcp#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40filembad
+vless://43488128-319e-f480-64ea-0acdc712e2a8@193.238.152.60:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=ICj0tYvWTiCM0Q47ddC3pTQ9APwk9tS9_i2gWC_dZRA&security=reality&sid=a1b2c3d4e5f67890&sni=www.github.com&type=tcp#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40filembad
+vless://6fb4c229-6f9a-449a-a533-9f2a8040c71c@185.238.140.212:443?security=reality&encryption=none&pbk=gMpp8SHZ5tGcxwaUEZ4e-ZHa8J0qIV7S5C0iO-qkEEE&headerType=none&fp=chrome&type=tcp&sni=www.microsoft.com&sid=#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40VIPV2rayNGNP
+vless://6fb4c229-6f9a-449a-a533-9f2a8040c71c@185.238.140.212:443?security=reality&encryption=none&pbk=gMpp8SHZ5tGcxwaUEZ4e-ZHa8J0qIV7S5C0iO-qkEEE&headerType=none&fp=chrome&type=tcp&sni=www.microsoft.com&sid= 6ba85179e30d4fc2#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40VIPV2rayNGNP
+vless://eeaebc18-9b35-4ef2-ab32-d9ed28a898d9@VPJRKR6:80?security=none&type=ws&headerType=&path=%2F&host=liarashop.ir#%F0%9F%8C%90%20WS-None%20%7C%20%40filembad
