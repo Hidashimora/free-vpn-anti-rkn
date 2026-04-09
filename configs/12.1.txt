@@ -1,13 +1,13 @@
 # Подписка 12.1.txt | .proxy (короткий)
-vless://1f2d5568-2bc3-4d67-bcca-4dafb952c05c@g.soskom.ir:52439?type=grpc&security=reality&sni=yahoo.com&fp=chrome&pbk=2Vxork2cQs-t5sqBYPt5ObPyex0jk7E2ND5we52m_0Y&sid=2e094153c17b67#%F0%9F%8C%90%20GRPC-Reality%20%7C%20%40Trick_mobil
-trojan://6wgmk7d1-31kg-yvsi-k2hg-hdyl1g58d9z6@127.0.0.1:1080?security=tls&type=tcp#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40Trick_mobil
-ss://YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk@139.64.165.153:5003#%F0%9F%8C%90%20TCP-None%20%7C%20%40Trick_mobil
-vless://9c9356a7-edbc-4e12-b566-c8f1f3df550d@193.151.134.247:8080?path=%2F&security=none&encryption=none&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40tik7net_vpn
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYNmJ0YlJ2SkNvM3VUUS0teWFhVDhNdmgwQ2dxaFlUTA@89.208.85.198:8388#%F0%9F%87%AC%F0%9F%87%A7%20TCP-None%20%7C%20%40v2nodes
-trojan://telegram-id-privatevpns@18.193.170.62:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#%F0%9F%87%A9%F0%9F%87%AA%20TCP-TLS%20%7C%20%40PrivateVPNs
-vless://c8d1c6d3-388f-48fc-a8f0-ed90d955d096@158.160.135.222:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw&security=reality&sid=6ba85179e30d4fc2&sni=www.google.com&type=tcp#%F0%9F%87%B7%F0%9F%87%BA%20TCP-Reality%20%7C%20%40v2nodes
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNTRjZGVlMTBmOGIyNWNl@57.129.95.38:11201#%F0%9F%8C%90%20TCP-None%20%7C%20%40VIPV2rayNGNP
-vless://4c43cf23-a74b-4d5c-99b5-7693efc66518@rfiksma.top:16779?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%8C%90%20TCP-None%20%7C%20%40filembad
+vless://8a77b19a-36be-43ff-ace0-bc322aa4f1e3@br.pineappled.org:443?type=tcp&security=reality&sni=google.com&fp=chrome&flow=xtls-rprx-vision&pbk=CKxzpUtdHkJYJDpogsZSGCz9J6nlOTWdsOMz3sARDVI&sid=99#%F0%9F%8C%90%20TCP-Reality%20%7C%20%40Trick_mobil
+trojan://221ctgq8-sgb8-tets-li0y-k79zxu333url@127.0.0.1:2080?security=tls&type=tcp#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40Trick_mobil
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYNmJ0YlJ2SkNvM3VUUS0teWFhVDhNdmgwQ2dxaFlUTA@38.180.215.249:8388#%F0%9F%8C%90%20TCP-None%20%7C%20%40Trick_mobil
+vless://7250610a-b2e4-4e1d-9855-cda1a4fcbb93@193.151.134.247:8080?path=%2F&security=none&encryption=none&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40tik7net_vpn
+vless://ca05976a-2dea-11f1-9ec5-baabcd4be2cd@172.86.94.48:8443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc&security=reality&sid=cafe01234567&sni=www.apple.com&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20TCP-Reality%20%7C%20%40v2nodes
+vless://c8d1c6d3-388f-48fc-a8f0-ed90d955d096@38.244.154.200:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=nPcUKydxoRI66O3tT9O4QCZpLjOBvkGsiXG7pDX1BBw&security=reality&sid=6ba85179e30d4fc2&sni=www.vk.com&type=tcp#%F0%9F%87%AA%F0%9F%87%AA%20TCP-Reality%20%7C%20%40v2nodes
+vless://43488128-319e-f480-64ea-0acdc712e2a8@86.54.82.239:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=xzCEjrybgdtiyOYNKgEAEWzHjvsE2Pkj198_Ch1gZ2U&security=reality&sid=41427aa565e28984&sni=store.steampowered.com&type=tcp#%F0%9F%87%A8%F0%9F%87%BF%20TCP-Reality%20%7C%20%40v2nodes
+vless://a2af6e7c-a792-4e51-9460-fff4bd74fbfc@104.18.14.19:80?encryption=none&host=vahidqaz-ft33vt-1.vahidqaz.workers.dev&path=%2F&security=none&type=ws#%F0%9F%8C%90%20WS-None%20%7C%20%40VIPV2rayNGNP
+vmess://eyJhZGQiOiAibjEuYjc2MHBsdXMuc2hvcCIsICJhaWQiOiAiMCIsICJhbHBuIjogIiIsICJmcCI6ICIiLCAiaG9zdCI6ICIiLCAiaWQiOiAiYjU1MzEyNWMtODg4YS00YzU3LTk5ZTktMGI4ZWE5YTI4NDQ0IiwgImluc2VjdXJlIjogIjAiLCAibmV0IjogInRjcCIsICJwYXRoIjogIi8iLCAicG9ydCI6ICI1ODQ1NSIsICJwcyI6ICJcdWQ4M2NcdWRmMTAgVENQLU5vbmUgfCBAc2FtaW5pc3RhbW0iLCAic2N5IjogImF1dG8iLCAic25pIjogIiIsICJ0bHMiOiAiIiwgInR5cGUiOiAiaHR0cCIsICJ2IjogIjIifQ==
 vless://7e0a9f75-b424-493b-b7e6-cebd7ea8642d@144.31.130.37:443?encryption=none&type=tcp&security=tls&fp=chrome&sni=secdn12.melodramaonline.net#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40filembad
 trojan://jkkpYrXuj8@ir1.iobase.ir:443?type=tcp&security=tls#%F0%9F%8C%90%20TCP-TLS%20%7C%20%40filembad
 vless://b49ab2d8-8421-49cd-b411-a6a007711ba7@ww.boldtest.ir:8880?type=ws&encryption=none&path=%2F&host=&security=none#%F0%9F%8C%90%20WS-None%20%7C%20%40BrilliantGift
