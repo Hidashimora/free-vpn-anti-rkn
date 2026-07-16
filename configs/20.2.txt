@@ -9,6 +9,7 @@ vless://eeb6823c-b926-4ea2-866a-5542edd26e59@162.159.38.119:8443?path=%2F&securi
 trojan://MITIVPN@188.114.97.6:443?path=%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%2F---%40MiTiVPN%3Dwin-de&security=tls&alpn=http%2F1.1&insecure=0&host=8282-282-382-28.App-Cloud.Ir&fp=chrome&type=ws&allowInsecure=0&sni=9292-283-382-282-82.App-Cloud.Ir#%F0%9F%87%A8%F0%9F%87%A6%40FreakConfig
 trojan://7f5rouvmiqm83905@188.213.131.90:59618?security=reality&pbk=lp1cRucvXUqOC1DpCMWnbs_MWGHIB41eiP6JUJuiGCo&host=v2rayNplus--v2rayNplus--v2rayNplus--&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=google.com&sid=e3916e0f2c8b438b#%F0%9F%87%A8%F0%9F%87%B3%40FreakConfig
 hy2://a305ac08-d136-11ee-b6db-f23c91cfbbc9@ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com:443/?sni=ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com#EPODONIOS
+hy2://a305ac08-d136-11ee-b6db-f23c91cfbbc9@ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com:443/?sni=ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com#EPODONIOS#
 hy2://a305ac08-d136-11ee-b6db-f23c91cfbbc9@ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com:443/?sni=ffc60249-t53wg0-t92wi1-1qkeg.hk2.hyhuawei.com#
 vless://59d08a71-f206-4ca3-9a42-8c56d3bfdc3c@46.8.229.199:443?type=tcp&security=reality&sni=intel.com&fp=chrome&flow=xtls-rprx-vision&pbk=4o2G9iT8IN7YWwiDLgjMrpPmvwU5IQT6C6nE5Rh-wSQ&sid=da#NL   VLESS-TCP-RLT - Cgi Global Limited  46.8.229.199
 vless://f7e95ce4-4098-44c0-831a-95e22898cf5b@node2.aloamin99.ir:443?type=tcp&security=reality&sni=play.google.com&fp=chrome&pbk=GwPrEwjLNXHfeDX2txhuJq1f8XMdC2FpZsfj3qiXsQc&sid=da4b0f71d84859a1#XX   VLESS-TCP-RLT  None
@@ -685,6 +686,7 @@ vmess://NDRiN2EzODgtMjFjYS00YWYwLWExNmItMDFlOWU2ZWYwNGUxQDk0LjEzMS4xMDUuMTc1Ojgw
 vmess://NDRiN2EzODgtMjFjYS00YWYwLWExNmItMDFlOWU2ZWYwNGUxQDk0LjEzMS4xMDUuMTc1OjgwP2VuY3J5cHRpb249YXV0byZhbXA7aG9zdD1vem9uLnJ1JmFtcDtwYXRoPSUyRkNtOGtIeXJ3WUxKOE5UUXJvTHYmYW1wO3NlY3VyaXR5PW5vbmUmYW1wO3R5cGU9aHR0cHVwZ3JhZGU=
 vmess://NDRiN2EzODgtMjFjYS00YWYwLWExNmItMDFlOWU2ZWYwNGUxQDk0LjEzMS4xMDUuMTc1OjgwP2VuY3J5cHRpb249YXV0byZhbXA7aG9zdD1vem9uLnJ1JmFtcDtwYXRoPSUyRkNtOGtIeXJ3WUxKOGE0Q1pUV1FhNzhsOWVNJmFtcDtzZWN1cml0eT1ub25lJmFtcDt0eXBlPXdz
 vmess://NDViODM1MTktOWM0Zi00MDUyLWExMWItMDJlMDE3YjYzNmQ0QDQ3LjI0NC4xMjAuMTk3OjM2NzAzP2VuY3J5cHRpb249YXV0byZhbXA7cGF0aD0lMkZhcmtpJmFtcDtzZWN1cml0eT1ub25lJmFtcDt0eXBlPXdz
+vmess://NDVlNmNjMWQtZmMyZS00Yzk3LTg2MzMtYjMzY2FhMjhlMTMw
 vmess://NDVlNmNjMWQtZmMyZS00Yzk3LTg2MzMtYjMzY2FhMjhlMTMwQGphenpnaG9zdC5jb206ODk5OD9hbHBuPWgyJTJDaHR0cCUyRjEuMSZhbXA7ZW5jcnlwdGlvbj1hdXRvJmFtcDtzZWN1cml0eT10bHMmYW1wO3NuaT1qYXp6Z2hvc3QuY29tJmFtcDt0eXBlPXRjcA==
 vmess://NDVlNmNjMWQtZmMyZS00Yzk3LTg2MzMtYjMzY2FhMjhlMTMwQGphenpnaG9zdC5jb206ODk5OD9hbHBuPWgyLGh0dHAvMS4xJmFtcDtlbmNyeXB0aW9uPWF1dG8mYW1wO3NlY3VyaXR5PXRscyZhbXA7c25pPWphenpnaG9zdC5jb20mYW1wO3R5cGU9dGNw
 vmess://NDVlNmNjMWQtZmMyZS00Yzk3LTg2MzMtYjMzY2FhMjhlMTMwQGphenpnaG9zdC5jb206ODk5OD9hbHBuPWgyLGh0dHAvMS4xJmVuY3J5cHRpb249YXV0byZzZWN1cml0eT10bHMmc25pPWphenpnaG9zdC5jb20mdHlwZT10Y3A=
@@ -718,6 +720,7 @@ vmess://NThmZTE1NDItNTI5MC00MGFkLTgxNWEtNzc3MDdhODFhZmU1QDUxLjc5LjEwMy43Njo4MD9l
 vmess://NThmZTE1NDItNTI5MC00MGFkLTgxNWEtNzc3MDdhODFhZmU1QHNwZWVkdGVzdC5vcmc6ODA/ZW5jcnlwdGlvbj1hdXRvJmFtcDtob3N0PWRlMi5waW5nLWdhbWUuaXImYW1wO3BhdGg9JTJGSU9lYmhMTWhsMUNUYkZIYkw5NW15ZlJYMiZhbXA7c2VjdXJpdHk9bm9uZSZhbXA7dHlwZT13cw==
 vmess://NTllMjhmNzgtYzMxYi00NjEzLTlkOWYtMWU2NzMyYTMxZjQ2QDUxLjE5NS4yMzUuNzE6MjA1Mj9lbmNyeXB0aW9uPWF1dG8mYW1wO2hlYWRlclR5cGU9aHR0cCZhbXA7cGF0aD0lMkYmYW1wO3NlY3VyaXR5PW5vbmUmYW1wO3R5cGU9dGNw
 vmess://NWMyNzBlYjEtZTE4ZC00MDIwLTk0OWQtMTdlMTg0NDVkYWM1QDE4OC4yMTIuOTcuMjAyOjIwMjA/ZW5jcnlwdGlvbj1hdXRvJmFtcDt0eXBlPXRjcA==
+vmess://NWVkNzIwNmEtY2Q4ZC00YjAyLWFkZDEtNGY3Yjc4NzE3OGM5
 vmess://NWVkNzIwNmEtY2Q4ZC00YjAyLWFkZDEtNGY3Yjc4NzE3OGM5QDMxLjc3LjE0OS4xMzE6MTEwP2VuY3J5cHRpb249YXV0byZhbXA7c2VjdXJpdHk9bm9uZSZhbXA7dHlwZT10Y3A=
 vmess://NWVkNzIwNmEtY2Q4ZC00YjAyLWFkZDEtNGY3Yjc4NzE3OGM5QDMxLjc3LjE0OS4xMzE6MTEwP2VuY3J5cHRpb249YXV0byZzZWN1cml0eT1ub25lJnR5cGU9dGNw
 vmess://NWY3MjZmZTMtZDgyZS00ZGE1LWE3MTEtOGFmMGNiYjJiNjgyQDE3Mi42Ny4yMDAuMTM6NDQzP2VuY3J5cHRpb249YXV0byZhbXA7aG9zdD0xYTJkNTE0Yi0zN2NmLTQ5OWYtOGQwOC1kMDE3YTkyYWI1YmIuYXNvdWwtYXZhLnRvcCZhbXA7cGF0aD0lMkZhenVtYXNlLnJlbiZhbXA7c2VjdXJpdHk9dGxzJmFtcDtzbmk9MWEyZDUxNGItMzdjZi00OTlmLThkMDgtZDAxN2E5MmFiNWJiLmFzb3VsLWF2YS50b3AmYW1wO3R5cGU9d3M=
@@ -1012,8 +1015,6 @@ vmess://ZXcwS0lDQWlkaUk2SUNJeUlpd05DaUFnSW5Ceklqb2dJdVdGamVpMHVlYWlyK1d0a0doMGRI
 vmess://ZXcwS0lDQWlkaUk2SUNJeUlpd05DaUFnSW5Ceklqb2dJdVdGamVpMHVlYWlyK1d0a0doMGRIQnpPaTh2ZEM1dFpTOXRablJwZW1raUxBMEtJQ0FpWVdSa0lqb2dJakV3TkM0eE9TNDFNUzR5TXpJaUxBMEtJQ0FpY0c5eWRDSTZJQ0l5TURnMklpd05DaUFnSW1sa0lqb2dJakk1WldWaVlqWXdMV0l5TjJJdE5HRTVaQzFpWW1FMUxUazBOemMyTTJRNU1qQTFaU0lzRFFvZ0lDSmhhV1FpT2lBaU1DSXNEUW9nSUNKelkza2lPaUFpWVhWMGJ5SXNEUW9nSUNKdVpYUWlPaUFpZDNNaUxBMEtJQ0FpZEhsd1pTSTZJQ0p1YjI1bElpd05DaUFnSW1odmMzUWlPaUFpYVhBd01EVXVaSFJyZFRRM0xuaDVlaUlzRFFvZ0lDSndZWFJvSWpvZ0ltZHBkR2gxWWk1amIyMHZRV3gyYVc0NU9UazVJaXdOQ2lBZ0luUnNjeUk2SUNJaUxBMEtJQ0FpYzI1cElqb2dJaUlzRFFvZ0lDSmhiSEJ1SWpvZ0lpSU5DbjA9PGJyLz48YnIvPg==
 vmess://ZXcwS0lDQWlkaUk2SUNJeUlpd05DaUFnSW5Ceklqb2dJdVdGamVpMHVlYWlyK1d0a0doMGRIQnpPaTh2ZEM1dFpTOXRablJwZW1raUxBMEtJQ0FpWVdSa0lqb2dJakV3TkM0eU5pNHdMalUySWl3TkNpQWdJbkJ2Y25RaU9pQWlNakE0TmlJc0RRb2dJQ0pwWkNJNklDSmxPV1V6WTJNeE15MWtZalE0TFRSall6RXRPR015TkMwM05qSTJORE01WVRVek16a2lMQTBLSUNBaVlXbGtJam9nSWpBaUxBMEtJQ0FpYzJONUlqb2dJbUYxZEc4aUxBMEtJQ0FpYm1WMElqb2dJbmR6SWl3TkNpQWdJblI1Y0dVaU9pQWlibTl1WlNJc0RRb2dJQ0pvYjNOMElqb2dJbWx3TVRRdVpuSmxaV2R5WVdSbGJIa3VlSGw2SWl3TkNpQWdJbkJoZEdnaU9pQWlaMmwwYUhWaUxtTnZiUzlCYkhacGJqazVPVGtpTEEwS0lDQWlkR3h6SWpvZ0lpSXNEUW9nSUNKemJta2lPaUFpSWl3TkNpQWdJbUZzY0c0aU9pQWlJZzBLZlE9PTxici8+PGJyLz4=
 vmess://ZXcwS0lDQWlkaUk2SUNJeUlpd05DaUFnSW5Ceklqb2dJdVdGamVpMHVlYWlyK1d0a0doMGRIQnpPaTh2ZEM1dFpTOXRablJwZW1raUxBMEtJQ0FpWVdSa0lqb2dJakV5TUM0eU16SXVNVFV6TGpNM0lpd05DaUFnSW5CdmNuUWlPaUFpTkRJd05UVWlMQTBLSUNBaWFXUWlPaUFpTkRFNE1EUTRZV1l0WVRJNU15MDBZams1TFRsaU1HTXRPVGhqWVRNMU9EQmtaREkwSWl3TkNpQWdJbUZwWkNJNklDSTJOQ0lzRFFvZ0lDSnpZM2tpT2lBaVlYVjBieUlzRFFvZ0lDSnVaWFFpT2lBaWRHTndJaXdOQ2lBZ0luUjVjR1VpT2lBaWJtOXVaU0lzRFFvZ0lDSm9iM04wSWpvZ0lpSXNEUW9nSUNKd1lYUm9Jam9nSWk4aUxBMEtJQ0FpZEd4eklqb2dJaUlzRFFvZ0lDSnpibWtpT2lBaUlpd05DaUFnSW1Gc2NHNGlPaUFpSWcwS2ZRPT08YnIvPjxici8+
-vmess://ZXcwS0lDQWlkaUk2SUNJeUlpd05DaUFnSW5Ceklqb2dJdVdGamVpMHVlYWlyK1d0a0doMGRIQnpPaTh2ZEM1dFpTOXRablJwZW1raUxBMEtJQ0FpWVdSa0lqb2dJalExTGprMExqWTRMakkxTWlJc0RRb2dJQ0p3YjNKMElqb2dJalV3TVRFeElpd05DaUFnSW1sa0lqb2dJakppTUdNeVlUSTVMV0UxWmpZdE5ETTRNaTFpTVRnM0xXRTFZVFF5TkdJMU1HVTBZaUlzRFFvZ0lDSmhhV1FpT2lBaU1DSXNEUW9nSUNKelkza2lPaUFpWVhWMGJ5SXNEUW9nSUNKdVpYUWlPaUFpZEdOd0lpd05DaUFnSW5SNWNHVWlPaUFpYUhSMGNDSXNEUW9nSUNKb2IzTjBJam9nSWlJc0RRb2dJQ0p3WVhSb0lqb2dJaThpTEEwS0lDQWlkR3h6SWpvZ0lpSXNEUW9nSUNKemJta2lPaUFpSWl3TkNpQWdJbUZzY0c0aU9pQWlJZzBLZlE9PTxici8+PGJyLz4=
-vmess://ZXcwS0lDQWlkaUk2SUNJeUlpd05DaUFnSW5Ceklqb2dJdVdGamVpMHVlYWlyK1d0a0doMGRIQnpPaTh2ZEM1dFpTOXRablJwZW1raUxBMEtJQ0FpWVdSa0lqb2dJbTF0YW5BeE1TNXRhV05zYjNWa0xtSjFlbm9pTEEwS0lDQWljRzl5ZENJNklDSTBOakF4TVNJc0RRb2dJQ0pwWkNJNklDSm1PV0l3TW1RNFl5MWlOamxpTFRRek5XWXRZV0V5TlMwMk9ETTVNMlUxWm1JeE1qRWlMQTBLSUNBaVlXbGtJam9nSWpBaUxBMEtJQ0FpYzJONUlqb2dJbUYxZEc4aUxBMEtJQ0FpYm1WMElqb2dJbmR6SWl3TkNpQWdJblI1Y0dVaU9pQWlibTl1WlNJc0RRb2dJQ0pvYjNOMElqb2dJaUlzRFFvZ0lDSndZWFJvSWpvZ0lpOTZhQzFqYmlJc0RRb2dJQ0owYkhNaU9pQWlJaXdOQ2lBZ0luTnVhU0k2SUNJaUxBMEtJQ0FpWVd4d2JpSTZJQ0lpRFFwOTxici8+PGJyLz4=
 trojan://sodgv45y-nxw1-znb0-dj0q-7dzl6bmbnb8c@127.0.0.1:1080?security=tls&type=tcp# LAST UPDATE: 2026/07/16 | 09:39
 trojan://eba5h6a2-84rp-4sxs-4v1p-z1xswifcnit8@127.0.0.1:2080?security=tls&type=tcp#This is a free trial project.
 trojan://gussniyk-zo3h-xtoy-qlzr-uo7d0xv0bu2i@127.0.0.1:4080?security=tls&type=tcp# GitHub Argh94
@@ -1837,7 +1838,6 @@ trojan://-----------BanV2ray------------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipo
 trojan://-----------BanV2ray------------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5560?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#
 trojan://-----------BanV2ray------------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5560?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#@tootffarangi-10
 trojan://-----------BanV2ray------------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5560?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#EPODONIOS
-trojan://-----------BanV2ray------------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5560?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#111868
 trojan://-----------BanV2ray------------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5560?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#CH-@VPNine1
 trojan://-----------BanV2ray------------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5560?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#Join+Telegram:@Farah_VPN
 trojan://-----------BanV2ray------------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5560?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#
@@ -1845,21 +1845,17 @@ trojan://-----------BanV2ray------------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipo
 trojan://-----------BanV2ray------------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5560?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#%F0%9F%87%A8%F0%9F%87%AD111917%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me%2FLonUp_M
 trojan://-----------BanV2ray------------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5560?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#@AR14N24b
 trojan://-----------BanV2ray------------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5560?security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#
-trojan://-----------BanV2ray------------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5560?security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#Join+Telegram:@Farah_VPN
 trojan://-----------BanV2ray------------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5560?security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#
 trojan://-----------BanV2ray------------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5560?type=grpc&security=reality&fp=chrome&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&sni=chi.yahoo.com&spx=%2F#
 trojan://-----------BanV2ray------------@soskeynets.poki-pakipon.ir:5560?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#
 trojan://-----------BanV2ray------------@soskeynets.poki-pakipon.ir:5560?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#EPODONIOS
-trojan://-----------BanV2ray------------@soskeynets.poki-pakipon.ir:5560?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#111868
 trojan://-----------BanV2ray------------@soskeynets.poki-pakipon.ir:5560?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#Join+Telegram:@Farah_VPN
 trojan://----------BanV2ray---------
 trojan://----------BanV2ray---------#
 trojan://----------BanV2ray---------#Join+Telegram:@Farah_VPN
 trojan://----------BanV2ray---------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:4417?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#
-trojan://----------BanV2ray---------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:4417?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#@filembad
 trojan://----------BanV2ray---------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:4417?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#@tootffarangi-11
 trojan://----------BanV2ray---------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:4417?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#EPODONIOS
-trojan://----------BanV2ray---------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:4417?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#111869
 trojan://----------BanV2ray---------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:4417?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#CH-@VPNine1
 trojan://----------BanV2ray---------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:4417?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#Join+Telegram:@Farah_VPN
 trojan://----------BanV2ray---------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:4417?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#
@@ -1870,7 +1866,6 @@ trojan://----------BanV2ray---------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir
 trojan://----------BanV2ray---------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:4417?type=grpc&security=reality&fp=chrome&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&sni=chi.yahoo.com&spx=%2F#
 trojan://----------BanV2ray---------@soskeynets.poki-pakipon.ir:4417?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#
 trojan://----------BanV2ray---------@soskeynets.poki-pakipon.ir:4417?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#EPODONIOS
-trojan://----------BanV2ray---------@soskeynets.poki-pakipon.ir:4417?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#111869
 trojan://----------BanV2ray---------@soskeynets.poki-pakipon.ir:4417?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#Join+Telegram:@Farah_VPN
 trojan://----------JKVPN----------@4-3-2-2-2-5-5-3xxxvwhay.poki-pakipon.ir:51477?sni=yahoo.com&peer=yahoo.com&security=reality#
 trojan://----------JKVPN----------@4-3-2-2-2-5-5-3xxxvwhay.poki-pakipon.ir:51477?type=xhttp&path=%2F&host=yahoo.com&mode=auto&security=reality&pbk=-5raiqOXsgHwYktA3H-cYY1gb5OMzsDMu6xYpHGH3wg&fp=firefox&sni=yahoo.com&sid=&spx=%2F#
@@ -1947,8 +1942,6 @@ trojan://--------BanV2ray-------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:130
 trojan://--------BanV2ray-------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1302?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#
 trojan://--------BanV2ray-------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1302?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#@tootffarangi-12
 trojan://--------BanV2ray-------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1302?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#EPODONIOS
-trojan://--------BanV2ray-------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1302?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#111870
-trojan://--------BanV2ray-------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1302?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#CH-@VPNine1
 trojan://--------BanV2ray-------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1302?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#Join+Telegram:@Farah_VPN
 trojan://--------BanV2ray-------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1302?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#
 trojan://--------BanV2ray-------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1302?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#%F0%9F%87%A8%F0%9F%87%AD111870%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me%2FSOSkeyNET
@@ -1957,7 +1950,6 @@ trojan://--------BanV2ray-------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:130
 trojan://--------BanV2ray-------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1302?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#Join+Telegram:@Farah_VPN
 trojan://--------BanV2ray-------@soskeynets.poki-pakipon.ir:1302?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#
 trojan://--------BanV2ray-------@soskeynets.poki-pakipon.ir:1302?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#EPODONIOS
-trojan://--------BanV2ray-------@soskeynets.poki-pakipon.ir:1302?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#111870
 trojan://--------BanV2ray-------@soskeynets.poki-pakipon.ir:1302?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#Join+Telegram:@Farah_VPN
 trojan://-------BanV2ray------
 trojan://-------BanV2ray------#
@@ -1983,10 +1975,8 @@ trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:53159
 trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:53159?sni=chi.yahoo.com&peer=chi.yahoo.com&security=reality#
 trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:53159?type=grpc&security=reality&fp=chrome&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&sni=chi.yahoo.com&spx=%2F#
 trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#
-trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#@filembad
 trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#@tootffarangi-15
 trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#EPODONIOS
-trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#111872
 trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#CH-@VPNine1
 trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#Join+Telegram:@Farah_VPN
 trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#
@@ -1995,17 +1985,14 @@ trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?
 trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#@AR14N24b
 trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#Join+Telegram:@Farah_VPN
 trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#
-trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#Join+Telegram:@Farah_VPN
 trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#
 trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?sni=chi.yahoo.com&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&mode=gun&spx=%2F&security=reality&type=grpc&fp=firefox#
 trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?sni=chi.yahoo.com&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&mode=gun&spx=/&security=reality&type=grpc&fp=chrome#
-trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?sni=chi.yahoo.com&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&mode=gun&spx=/&security=reality&type=grpc&fp=chrome#@filembad
 trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?sni=chi.yahoo.com&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&mode=gun&spx=/&security=reality&type=grpc&fp=chrome#EPODONIOS
 trojan://-------BanV2ray------@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:5315?sni=chi.yahoo.com&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&mode=gun&spx=/&security=reality&type=grpc&fp=chrome#Join+Telegram:@Farah_VPN
 trojan://-------BanV2ray------@soskeynets.poki-pakipon.ir:53159?mode=gun&security=reality&authority=v2rayNplus--v2rayNplus--v2rayNplus&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#
 trojan://-------BanV2ray------@soskeynets.poki-pakipon.ir:5315?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#
 trojan://-------BanV2ray------@soskeynets.poki-pakipon.ir:5315?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#EPODONIOS
-trojan://-------BanV2ray------@soskeynets.poki-pakipon.ir:5315?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#111872
 trojan://-------BanV2ray------@soskeynets.poki-pakipon.ir:5315?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#Join+Telegram:@Farah_VPN
 trojan://------BanV2ray-----
 trojan://------BanV2ray-----#
@@ -2134,13 +2121,26 @@ trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:19442?s
 trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:19442?type=grpc&security=reality&fp=chrome&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&sni=chi.yahoo.com&spx=%2F#
 trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:19442?type=grpc&security=reality&spx=/&fp=chrome&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&sni=chi.yahoo.com&mode=gun#
 trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#
-trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#@filembad
 trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#@tootffarangi-14
 trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#EPODONIOS
-trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#111871
-trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#CH-@VPNine1
 trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#Join+Telegram:@Farah_VPN
 trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#
 trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#%F0%9F%87%A8%F0%9F%87%AD111871%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me%2FSOSkeyNET
 trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#%F0%9F%87%A8%F0%9F%87%AD111920%20%7C%20%E2%9A%A1%EF%B8%8FTelegram%20%3D%20t.me%2FLonUp_M
 trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#@AR14N24b
+trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#Join+Telegram:@Farah_VPN
+trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#
+trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=firefox&spx=%2F&type=grpc&sni=chi.yahoo.com#
+trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?security=reality&sni=chi.yahoo.com&fp=chrome&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&spx=/&type=grpc#
+trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?security=reality&sni=chi.yahoo.com&fp=chrome&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&spx=/&type=grpc#EPODONIOS
+trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?security=reality&sni=chi.yahoo.com&fp=chrome&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&spx=/&type=grpc#Join+Telegram:@Farah_VPN
+trojan://------BanV2ray-----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:1944?security=reality&sni=chi.yahoo.com&fp=firefox&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&spx=%2F&type=grpc#
+trojan://------BanV2ray-----@soskeynets.poki-pakipon.ir:19442?mode=gun&security=reality&authority=v2rayNplus--v2rayNplus--v2rayNplus&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#
+trojan://------BanV2ray-----@soskeynets.poki-pakipon.ir:1944?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#
+trojan://------BanV2ray-----@soskeynets.poki-pakipon.ir:1944?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#EPODONIOS
+trojan://------BanV2ray-----@soskeynets.poki-pakipon.ir:1944?mode=gun&security=reality&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#Join+Telegram:@Farah_VPN
+trojan://-----BanV2ray----
+trojan://-----BanV2ray----#
+trojan://-----BanV2ray----#Join+Telegram:@Farah_VPN
+trojan://-----BanV2ray----@179.237.75.89:20894?security=reality&sni=chi.yahoo.com&type=grpc&fp=firefox&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak#
+trojan://-----BanV2ray----@bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir:20894?mode=gun&security=reality&authority=v2rayNplus--v2rayNplus--v2rayNplus&pbk=bJrhMKdMfPjEZ-EUazGR6h-uUDWAFxXG1MZlUVsd3Ak&fp=chrome&spx=/&type=grpc&sni=chi.yahoo.com#
