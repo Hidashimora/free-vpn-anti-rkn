@@ -1,2 +1,3 @@
 # Подписка 34 | SNI белый список (igareck)
-vless://59525c39-e731-4c27-bc9e-6d8cef67572c@201.24.120.68:4100?encryption=none&type=ws&security=none&path=%2Fv1&host=live.ok.ru#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%B7%F0%9F%87%BA%20%F0%9F%87%B8%F0%9F%87%A8%20%5BSNI-RU%5D%20live.ok.ru
+vless://0d735822-3785-11f1-b1ef-3e73c4f3b53d@eu-gw.videomonitor.cloud:2053?encryption=none&type=grpc&serviceName=grpc-direct&mode=gun&security=reality&sni=dzen.ru&fp=chrome&pbk=j8OW1foMwfeiy3VMbNPHLgTXgy_ZPdFFxv-H3HrbNF0&sid=f0c18fcc1d09b637#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20%F0%9F%8C%90%20%5BSNI-RU%5D%20dzen.ru
+vless://c124a209-d949-4951-8234-e2d918b3e6c0@russia.vypnet.su:8443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=max.ru&pbk=C819rM4M_c473A8glp-eBFh8Fm9O1cmEeXmivDhM1Fc#%F0%9F%87%B7%F0%9F%87%BA%20Russia%20%7C%20%F0%9F%8C%90%20%5BSNI-RU%5D%20max.ru
