@@ -139,7 +139,7 @@ vless://78eddd19-4fd4-461e-ad75-efd8cd44e0d0@i2.cloud--vpn.site:443?host=c12.com
 trojan://humanity@172.67.149.60:443?insecure=0&host=www.ignitelimit.com&allowInsecure=0&sni=www.ignitelimit.com&ech=ip.gs%2Budp%3A%2F%2F8.8.8.8&security=tls&type=ws&path=%2Fassignment#@v2rayng3
 vless://0b0915d7-6800-4580-a44b-77d84f105e6a@185.79.138.71:448?security=reality&encryption=none&pbk=CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8&headerType=none&fp=chrome&type=tcp&sni=www.samsung.com&sid=cd21e552537c7c0b#@v2rayng3
 vless://e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d@64.49.38.6:993?fp=firefox&flow=xtls-rprx-vision&pbk=JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0&encryption=none&security=reality&sni=download.nvidia.com&type=tcp&headerType=none#@v2rayng3
-vless://78eddd19-4fd4-461e-ad75-efd8cd44e0d0@i2.cloud--vpn.site:443?host=c12.com&security=tls&sni=ssl.fastly.com&encryption=none&path=%2F&type=ws&insecure=0&fp=firefox&alpn=h2&allowInsecure=0#@v2rayng3
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.228.161:8443?mode=gun&security=none&serviceName=grpc&type=grpc&encryption=none#@v2rayng3
 vless://a3087447-269f-43c5-a5f9-d5686f452612@185.143.233.5:2082?path=%2F&security=none&encryption=none&host=cdn.mizbanertebatfarda.ir&type=ws#@v2rayng3
 vless://a29e0815-8d5e-4743-afeb-1d3c5d128c34@snapp.ir:8080?path=%2F&security=none&encryption=none&host=api.shomalnojm.ir&type=ws#@v2rayng3
 vless://f8db6882-e6b2-4f57-bed8-515d094a39e3@79.175.167.196:4041?security=none&encryption=none&headerType=none&type=tcp#@v2rayng3
