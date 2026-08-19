@@ -79,8 +79,8 @@ hy2://cd74c0a406664a5bc0bac098220a2468@node1.sferavpn.pro:443/?sni=node1.sferavp
 hy2://cd74c0a406664a5bc0bac098220a2468@node1.sferavpn.pro:443/?sni=node1.sferavpn.pro&obfs=salamander&obfs-password=44f1c1e2f8b99e792ceed574627a1eb0#
 hy2://d1224950-ffab-4b9a-8696-431b40a6cfbd@bel-03.node.lumixnet.com:443/?sni=bel-03.node.lumixnet.com#EPODONIOS
 hy2://d1224950-ffab-4b9a-8696-431b40a6cfbd@bel-03.node.lumixnet.com:443/?sni=bel-03.node.lumixnet.com#
-hy2://d1224950-ffab-4b9a-8696-431b40a6cfbd@bel-03.node.lumixnet.com:443/?sni=bel-03.node.lumixnet.com##
 hy2://df489ab2-2242-4952-a774-1074a3a31f41@eh-spl1.craft-supply.org:8443/?sni=eh-spl1.craft-supply.org#EPODONIOS
+hy2://df489ab2-2242-4952-a774-1074a3a31f41@eh-spl1.craft-supply.org:8443/?sni=eh-spl1.craft-supply.org#EPODONIOS#
 hy2://df489ab2-2242-4952-a774-1074a3a31f41@eh-spl1.craft-supply.org:8443/?sni=eh-spl1.craft-supply.org#
 hy2://hysteria2_fastlane_9r63hua9f:KR0ayzwokB6pZySqiZ15Erm6cQHR7C4E@144.31.135.204:1935/?sni=nl2.h.fastlanehosting.ru#EPODONIOS
 hy2://hysteria2_fastlane_9r63hua9f:KR0ayzwokB6pZySqiZ15Erm6cQHR7C4E@144.31.135.204:1935/?sni=nl2.h.fastlanehosting.ru#
@@ -822,6 +822,7 @@ ss://-V2RAXX@test.fast.hosting-ip.com:80?path=%2FTelegram%2CV2RAXX%2CTelegram%2C
 ss://-VPNCUSTOMIZE-@188.114.98.224:2095?path=/V2rayCUSTOMIZE%3Fed%3D1024&security=none&encryption=none&host=V2ray-_-_-_-_-_-VPNCUSTOMIZE.keLLekcoLLection.com.&type=ws#
 ss://-VPNCUSTOMIZE-@fishlab.ucdavis.edu:443?path=%2F%40VPNCUSTOMIZE-----%40VPNCUSTOMIZE-----%40VPNCUSTOMIZE---%40VPNCUSTOMIZE---%40VPNCUSTOMIZE---%40VPNCUSTOMIZE---%40VPNCUSTOMIZE%3Fed%3D2560&security=tls&host=JoinBedeeeeee--VPNCUSTOMIZE.ir.&type=ws&sni=fishlab.ucdavis.edu#
 ss://00000000-0000-4000-8000-000000000000@37.114.50.157:4002?security=tls&fp=chrome&sni=sub.mot.ip-ddns.com&type=ws&headerType=none&host=sub.mot.ip-ddns.com&path=/#
+ss://0000e293-996d-4c32-99dc-29a8aba80d06@cave.magazinetut.online:443?encryption=none&flow=xtls-rprx-vision&type=raw&headerType=none&security=tls&fp=chrome&sni=cave.magazinetut.online#
 ss://0000e293-996d-4c32-99dc-29a8aba80d06@cave.magazinetut.online:443?flow=xtls-rprx-vision&fp=chrome&security=tls&sni=cave.magazinetut.online&type=tcp#
 ss://0000e293-996d-4c32-99dc-29a8aba80d06@cave.magazinetut.online:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=chrome#
 ss://0001691a-e408-461c-9a09-96e46c156bdb@hydrovpnsrv1.craftedrpg.ir:443/?encryption=none&host=telewebion.com&type=tcp&headerType=http#
@@ -845,6 +846,7 @@ ss://00144519-7e0d-476b-8d28-435576af9262@167.17.69.171:443?alpn=channel%40netwo
 ss://00144519-7e0d-476b-8d28-435576af9262@167.17.69.171:443?alpn=channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn%E2%94%98%C3%A7&flow=xtls-rprx-vision&pbk=ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk&security=reality&sid=0990d22f&sni=www.cloudflare.com&type=tcp#
 ss://00144519-7e0d-476b-8d28-435576af9262@167.17.69.171:443?alpn=channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn-channel%40networld_vpn%E2%95%A8%E2%8C%90%E2%95%A5%C3%BB&flow=xtls-rprx-vision&pbk=ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk&security=reality&sid=0990d22f&sni=www.cloudflare.com&type=tcp#
 ss://00144519-7e0d-476b-8d28-435576af9262@167.17.69.171:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk&security=reality&sid=0990d22f&sni=www.cloudflare.com&type=tcp#
+ss://00144519-7e0d-476b-8d28-435576af9262@167.17.69.171:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk&security=reality&sid=0990d22f&sni=www.cloudflare.com&type=tcp#EPODONIOS
 ss://00144519-7e0d-476b-8d28-435576af9262@167.17.69.171:443?encryption=none&flow=xtls-rprx-vision&type=raw&headerType=none&security=reality&fp=chrome&pbk=ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk&sni=www.cloudflare.com&sid=0990d22f#
 ss://00274dd7-7cee-420d-9942-b24d047611a7@116.204.164.27:7443?path=%2F%40Marisa_kristi&security=tls&encryption=none&host=8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev&fp=chrome&type=ws&sni=8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev&ech=cloudflare-ech.com+https://dns.alidns.com/dns-query#
 ss://003606d1-2d44-4f66-a14c-f130fd76a1d3@5.178.85.233:9704?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=Wki8ekkP0DkoL4jUkeqftXEdGwAqNGT5P2zsr75Iuz4&security=reality&sid=d25eb35e924ce840&sni=ru-5.nodes.ac&type=raw#
@@ -856,6 +858,7 @@ ss://003c712d-daa1-4c3f-bed2-658e7787d04c@31.77.57.112:6243?security=reality&enc
 ss://003c712d-daa1-4c3f-bed2-658e7787d04c@31.77.57.112:6243?security=reality&encryption=none&pbk=B55CpLIn63ajsDxoRe9icE2qa-rXcEiQXLpqfhHp2B0&headerType=none&fp=chrome&type=tcp&sni=github.com&sid=0dabc5964c#
 ss://003c712d-daa1-4c3f-bed2-658e7787d04c@31.77.57.112:6243?security=reality&encryption=none&pbk=B55CpLIn63ajsDxoRe9icE2qa-rXcEiQXLpqfhHp2B0&headerType=none&fp=firefox&type=tcp&sni=github.com&sid=0dabc5964c#
 ss://003c712d-daa1-4c3f-bed2-658e7787d04c@31.77.57.112:6243?security=reality&encryption=none&pbk=B55CpLIn63ajsDxoRe9icE2qa-rXcEiQXLpqfhHp2B0&headerType=none&fp=firefox&type=tcp&sni=github.com&sid=0dabc5964c#%5B%F0%9F%87%A9%F0%9F%87%AA%5Dt.me%2FConfigV2RayNG
+ss://003c712d-daa1-4c3f-bed2-658e7787d04c@31.77.57.112:6243?security=reality&encryption=none&pbk=B55CpLIn63ajsDxoRe9icE2qa-rXcEiQXLpqfhHp2B0&headerType=none&fp=firefox&type=tcp&sni=github.com&sid=0dabc5964c#Channel%20id%3A%20%40ShadowProxy66%20%F0%9F%87%A9%F0%9F%87%AA
 ss://003c712d-daa1-4c3f-bed2-658e7787d04c@31.77.57.112:6243?security=reality&encryption=none&pbk=B55CpLIn63ajsDxoRe9icE2qa-rXcEiQXLpqfhHp2B0&headerType=none&fp=firefox&type=tcp&sni=github.com&sid=0dabc5964c#MTMVPN%207%20
 ss://003c712d-daa1-4c3f-bed2-658e7787d04c@31.77.57.112:6243?security=reality&encryption=none&pbk=B55CpLIn63ajsDxoRe9icE2qa-rXcEiQXLpqfhHp2B0&headerType=none&fp=firefox&type=tcp&sni=github.com&sid=0dabc5964c#ar14n24b%20%20VL-TCP-%20%20XX%20132ms
 ss://003c712d-daa1-4c3f-bed2-658e7787d04c@31.77.57.112:6243?type=tcp&security=reality&encryption=none&fp=firefox&pbk=B55CpLIn63ajsDxoRe9icE2qa-rXcEiQXLpqfhHp2B0&sid=0dabc5964c&sni=github.com#
@@ -910,7 +913,6 @@ ss://0058c215-ab1e-400c-a403-b5b2fda7e846@pishdad.org:8080?path=/&security=none&
 ss://0058c215-ab1e-400c-a403-b5b2fda7e846@pishdad.org:8080?path=/&security=none&encryption=none&host=tr-cd.sublink-vip2.com&type=ws#EPODONIOS
 ss://0058c215-ab1e-400c-a403-b5b2fda7e846@pishdad.org:8080?path=/&security=none&encryption=none&host=tr-cd.sublink-vip2.com&type=ws#TEL;Father_vpn
 ss://0058c215-ab1e-400c-a403-b5b2fda7e846@pishdad.org:8080?path=/&security=none&encryption=none&host=tr-cd.sublink-vip2.com&type=ws#146421
-ss://0058c215-ab1e-400c-a403-b5b2fda7e846@pishdad.org:8080?type=tcp&encryption=none&security=none#
 ss://0058c215-ab1e-400c-a403-b5b2fda7e846@www.parsvds.com:8080/?type=ws&encryption=none&host=tr-cd.sublink-vip2.com&path=%2F#
 ss://0058c215-ab1e-400c-a403-b5b2fda7e846@www.parsvds.com:8080/?type=ws&encryption=none&host=tr-cd.sublink-vip2.com&path=%2F#%F0%9F%87%A9%F0%9F%87%AA%20%7C%20%40WhiteDNS%20%7C%20DE9%7C23.3MB%2Fs%7CGPT%E2%81%BA-DE%7CGM-DE%7CCL-DE%7CSP-DE
 ss://0058c215-ab1e-400c-a403-b5b2fda7e846@www.speedtest.org:8080/?type=ws&encryption=none&host=tr-cd.sublink-vip2.com&path=%2F#
@@ -1085,8 +1087,6 @@ ss://0132166f-e702-48ed-a9e7-b07af768faf8@213.241.198.251:8880/?type=ws&encrypti
 ss://0132166f-e702-48ed-a9e7-b07af768faf8@216.205.52.251:8880/?type=ws&encryption=none&host=cf.d3z.net&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3#
 ss://0132166f-e702-48ed-a9e7-b07af768faf8@25.129.199.251:8880?encryption=none&security=none&type=ws&host=cf.d3z.net&path=/Telegram#
 ss://0132166f-e702-48ed-a9e7-b07af768faf8@31.43.179.251:8880?allowInsecure=0&sni=cf.d3z.net&type=ws&host=cf.d3z.net&path=/Telegram#
-ss://0132166f-e702-48ed-a9e7-b07af768faf8@45.142.120.251:8880/?type=ws&encryption=none&host=cf.d3z.net&path=%2FTelegram%F0%9F%87%A8%F0%9F%87%B3#
-ss://0132166f-e702-48ed-a9e7-b07af768faf8@45.142.120.251:8880?allowInsecure=0&sni=cf.d3z.net&type=ws&host=cf.d3z.net&path=/TelegramU0001F1E8U0001F1F3#
 trojan://qops4afp-djlv-vp74-sat2-3l4jaxg2kp2n@127.0.0.1:1080?security=tls&type=tcp# LAST UPDATE: 2026/08/18 | 23:41
 trojan://l17d3271-wv3s-7sf9-7c2d-wqgjqc302m3d@127.0.0.1:2080?security=tls&type=tcp#This is a free trial project.
 trojan://xu03qojd-4q7f-romd-mm8w-2jpomvutmofo@127.0.0.1:4080?security=tls&type=tcp# GitHub Argh94
@@ -1530,7 +1530,6 @@ trojan://0000@masterserver1-masterserver1-masterserver1-masterserver1.oyomohx.wo
 trojan://0000@masterserver1-masterserver1-masterserver1-masterserver1.oyomohx.workers.dev:2053?security=tls&sni=masterserver1-masterserver1-masterserver1-masterserver1.oyomohx.workers.dev&fp=chrome&type=ws&host=masterserver1-masterserver1-masterserver1-masterserver1.oyomohx.workers.dev&path=/?ed=2560#
 trojan://0000@masterserver1-masterserver1-masterserver1-masterserver1.oyomohx.workers.dev:2053?security=tls&sni=masterserver1-masterserver1-masterserver1-masterserver1.oyomohx.workers.dev&fp=chrome&type=ws&host=masterserver1-masterserver1-masterserver1-masterserver1.oyomohx.workers.dev&path=/?ed=2560#@AR14N24b
 trojan://0000@masterserver1-masterserver1-masterserver1-masterserver1.oyomohx.workers.dev:2053?security=tls&sni=masterserver1-masterserver1-masterserver1-masterserver1.oyomohx.workers.dev&fp=chrome&type=ws&host=masterserver1-masterserver1-masterserver1-masterserver1.oyomohx.workers.dev&path=/?ed=2560#Join+Telegram:@Farah_VPN
-trojan://0000@masterserver1-masterserver1-masterserver1-masterserver1.oyomohx.workers.dev:2053?security=tls&sni=masterserver1-masterserver1-masterserver1-masterserver1.oyomohx.workers.dev&fp=chrome&type=ws&host=masterserver1-masterserver1-masterserver1-masterserver1.oyomohx.workers.dev&path=/?ed=2560#@VPNine1
 trojan://0000@masterserver1-masterserver1-masterserver1-masterserver1.wrdzl.workers.dev:8443?security=tls&sni=masterserver1-masterserver1-masterserver1-masterserver1.wrdzl.workers.dev&fp=chrome&type=ws&host=masterserver1-masterserver1-masterserver1-masterserver1.wrdzl.workers.dev&path=/?ed=2560#
 trojan://0000@masterserver1-masterserver1-masterserver1-masterserver1.wrdzl.workers.dev:8443?security=tls&sni=masterserver1-masterserver1-masterserver1-masterserver1.wrdzl.workers.dev&fp=chrome&type=ws&host=masterserver1-masterserver1-masterserver1-masterserver1.wrdzl.workers.dev&path=/?ed=2560#EPODONIOS
 trojan://0000@masterserver1-masterserver1-masterserver1-masterserver1.wrdzl.workers.dev:8443?security=tls&sni=masterserver1-masterserver1-masterserver1-masterserver1.wrdzl.workers.dev&fp=chrome&type=ws&host=masterserver1-masterserver1-masterserver1-masterserver1.wrdzl.workers.dev&path=/?ed=2560#
@@ -1999,8 +1998,6 @@ trojan://2b1ed981-6547-4094-998b-06a3323d6f6c@120.233.44.201:21179?security=tls&
 trojan://2bcfbfba-b446-4ad5-93ad-72af9e008f61@blackshadow.dpdns.org:443?Telegram=%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad%2C%40GozargahAzad&security=tls&sni=support.zoom.us.&type=ws&path=%2F195.123.218.174-443&Host=support.zoom.us.#US
 trojan://2bcfbfba-b446-4ad5-93ad-72af9e008f61@blackshadow.dpdns.org:443?security=tls&sni=blackshadow.dpdns.org#
 trojan://2bcfbfba-b446-4ad5-93ad-72af9e008f61@blackshadow.dpdns.org:443?security=tls&sni=blackshadow.dpdns.org#%F0%9F%8F%81RELAY-104.21.88.77-1205
-trojan://2bcfbfba-b446-4ad5-93ad-72af9e008f61@blackshadow.dpdns.org:443?security=tls&sni=blackshadow.dpdns.org&type=ws&host=blackshadow.dpdns.org&path=%2F195.123.218.174-443#
-trojan://2bcfbfba-b446-4ad5-93ad-72af9e008f61@blackshadow.dpdns.org:443?security=tls&sni=blackshadow.dpdns.org&type=ws&host=blackshadow.dpdns.org&path=%2F195.123.218.174-443#CA%E3%80%90%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90%EF%BC%9Ahttps%3A//a9a.xyz%E3%80%9118
 trojan://2bcfbfba-b446-4ad5-93ad-72af9e008f61@blackshadow.dpdns.org:443?security=tls&sni=support.zoom.us.blackshadow.dpdns.org&type=ws&path=%2F195.123.218.174-443&Host=support.zoom.us.blackshadow.dpdns.org#RELAY
 trojan://2c605663-b89a-5734-a9d6-97d4743d72cf@183.232.235.2:8313?security=tls&sni=hk-13-568.flztjc.net#
 trojan://2c605663-b89a-5734-a9d6-97d4743d72cf@dozo01.flztjc.top:8313?security=tls&sni=hk-13-568.flztjc.net#
@@ -2123,4 +2120,3 @@ trojan://407ecce0-dc85-465f-89f5-e520e9378baf@104.17.238.76:443/?type=tcp&securi
 trojan://40bb32c0-3f10-11f0-8c33-1239d0255272@uk1.test3.net:443?security=tls&headerType=none&type=tcp#
 trojan://40c89b10235c40321e7a3cef82b53a03@trs12.bolab.net:22?security=tls#
 trojan://40c89b10235c40321e7a3cef82b53a03@trs12.bolab.net:22?security=tls#%F0%9F%87%AF%F0%9F%87%B5JP-153.125.148.41-3129
-trojan://40c89b10235c40321e7a3cef82b53a03@trs16.bolab.net:22/?type=tcp&security=tls#
