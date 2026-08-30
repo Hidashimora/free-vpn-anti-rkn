@@ -6,14 +6,6 @@
   </a>
 </p>
 
-Support The Author
-BNB Smart Chain (BEP20): 0x78187a5efaefa1a790be883492c4f0952a167c4a
-Tron (TRC20): TBynQEXksZzCcx5KC52i7VyjRKvmv6DrjV
-Ethereum (ERC20): 0x78187a5efaefa1a790be883492c4f0952a167c4a
-> Укороченные списки VPN-серверов для обхода блокировок. 34 укороченных списка вместо тонны нод. Скопировал ссылку — вставил в клиент — и всё работает без тормозов и вылетов.
->
-> Автоматически обновляемая коллекция публичных VPN-конфигов (V2Ray / VLESS / Hysteria / Trojan / VMess / Reality / Shadowsocks) для быстрого обхода блокировок. Каждый конфиг — это TXT-подписка, которую можно импортировать практически в любой современный клиент (v2rayNG, NekoRay, Throne, v2rayN, V2Box, v2RayTun, Hiddify и др.). Списки обновляются раз в минуту с помощью GitHub Actions, поэтому ссылки из раздела «📋 Ссылки на подписки (1–34)» всегда актуальны.
-
 ---
 
 ## 📑 Содержание
@@ -26,6 +18,12 @@ Ethereum (ERC20): 0x78187a5efaefa1a790be883492c4f0952a167c4a
 - [🔗 Полные списки (не рекомендовано)](#-полные-списки-не-рекомендовано)
 - [⚙️ Обновление](#️-обновление)
 - [⚠️ Дисклеймер](#️-дисклеймер)
+
+---
+## Support The Author
+BNB Smart Chain (BEP20): `0x78187a5efaefa1a790be883492c4f0952a167c4a`  
+Tron (TRC20): `TBynQEXksZzCcx5KC52i7VyjRKvmv6DrjV`  
+Ethereum (ERC20): `0x78187a5efaefa1a790be883492c4f0952a167c4a` 
 
 ---
 
