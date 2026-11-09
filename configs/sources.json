@@ -1,0 +1,874 @@
+{
+ "generatedAt": "2026-11-09T03:36:56Z",
+ "generator": ".github/scripts/update_configs.py (workflow: update-vpn-config.yml)",
+ "policy": {
+  "schemes": [
+   "vless",
+   "trojan",
+   "vmess",
+   "ss",
+   "hy2"
+  ],
+  "maxShort": 300,
+  "maxFull": 500,
+  "failSafe": "a published list is never replaced by an empty or suspiciously smaller result",
+  "exclusions": {
+   "26": [
+    ".ru"
+   ]
+  }
+ },
+ "notes": {
+  "avencores": "AvenCores/goida-vpn-configs is unreachable (HTTP 404); served by the aneek0/goida-vpn-configs mirror",
+  "list26": "list 26 excludes entries containing '.ru' (behaviour preserved from the shell pipeline)",
+  "list31": "Vless-Reality-White-Lists-Rus-Mobile-2.txt was removed upstream and answers HTTP 404"
+ },
+ "sources": {
+  "aneek0/goida-vpn-configs": {
+   "role": "serves lists 1-26 (mirror of the repository whose AvenCores account disappeared)",
+   "lists": 52,
+   "ok": 52,
+   "stale": 0
+  },
+  "igareck/vpn-configs-for-russia": {
+   "role": "serves lists 27-34",
+   "lists": 10,
+   "ok": 10,
+   "stale": 0
+  },
+  "unavailable": {
+   "role": "upstream file removed; last known good content is being served",
+   "lists": 1,
+   "ok": 0,
+   "stale": 1
+  }
+ },
+ "lists": {
+  "1.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 4206,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/1.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:21Z"
+  },
+  "1.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 4206,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/1.txt",
+   "written": 500,
+   "servers": 500,
+   "lastSuccess": "2026-11-09T03:36:21Z"
+  },
+  "2.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 373390,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/2.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:28Z"
+  },
+  "2.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 373390,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/2.txt",
+   "written": 500,
+   "servers": 500,
+   "lastSuccess": "2026-11-09T03:36:28Z"
+  },
+  "3.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 9635,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/3.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:41Z"
+  },
+  "3.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 9635,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/3.txt",
+   "written": 500,
+   "servers": 500,
+   "lastSuccess": "2026-11-09T03:36:41Z"
+  },
+  "4.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 396,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/4.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:41Z"
+  },
+  "4.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 396,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/4.txt",
+   "written": 396,
+   "servers": 396,
+   "lastSuccess": "2026-11-09T03:36:41Z"
+  },
+  "5.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 229,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/5.txt",
+   "written": 229,
+   "servers": 229,
+   "lastSuccess": "2026-11-09T03:36:42Z"
+  },
+  "5.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 229,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/5.txt",
+   "written": 229,
+   "servers": 229,
+   "lastSuccess": "2026-11-09T03:36:42Z"
+  },
+  "6.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 140,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/6.txt",
+   "written": 140,
+   "servers": 140,
+   "lastSuccess": "2026-11-09T03:36:42Z"
+  },
+  "6.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 140,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/6.txt",
+   "written": 140,
+   "servers": 140,
+   "lastSuccess": "2026-11-09T03:36:42Z"
+  },
+  "7.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 409,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/7.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:42Z"
+  },
+  "7.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 409,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/7.txt",
+   "written": 409,
+   "servers": 409,
+   "lastSuccess": "2026-11-09T03:36:42Z"
+  },
+  "8.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 216,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/8.txt",
+   "written": 216,
+   "servers": 216,
+   "lastSuccess": "2026-11-09T03:36:43Z"
+  },
+  "8.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 216,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/8.txt",
+   "written": 216,
+   "servers": 216,
+   "lastSuccess": "2026-11-09T03:36:43Z"
+  },
+  "9.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 223,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/9.txt",
+   "written": 223,
+   "servers": 223,
+   "lastSuccess": "2026-11-09T03:36:43Z"
+  },
+  "9.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 223,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/9.txt",
+   "written": 223,
+   "servers": 223,
+   "lastSuccess": "2026-11-09T03:36:43Z"
+  },
+  "10.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 7709,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/10.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:44Z"
+  },
+  "10.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 7709,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/10.txt",
+   "written": 500,
+   "servers": 500,
+   "lastSuccess": "2026-11-09T03:36:44Z"
+  },
+  "11.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 591,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/11.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:45Z"
+  },
+  "11.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 591,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/11.txt",
+   "written": 500,
+   "servers": 500,
+   "lastSuccess": "2026-11-09T03:36:45Z"
+  },
+  "12.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 471,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/12.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:45Z"
+  },
+  "12.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 471,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/12.txt",
+   "written": 471,
+   "servers": 471,
+   "lastSuccess": "2026-11-09T03:36:45Z"
+  },
+  "13.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 267,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/13.txt",
+   "written": 267,
+   "servers": 267,
+   "lastSuccess": "2026-11-09T03:36:46Z"
+  },
+  "13.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 267,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/13.txt",
+   "written": 267,
+   "servers": 267,
+   "lastSuccess": "2026-11-09T03:36:46Z"
+  },
+  "14.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 17503,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/14.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:46Z"
+  },
+  "14.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 17503,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/14.txt",
+   "written": 500,
+   "servers": 500,
+   "lastSuccess": "2026-11-09T03:36:47Z"
+  },
+  "15.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 318,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/15.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:47Z"
+  },
+  "15.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 318,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/15.txt",
+   "written": 318,
+   "servers": 318,
+   "lastSuccess": "2026-11-09T03:36:47Z"
+  },
+  "16.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 20,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/16.txt",
+   "written": 20,
+   "servers": 20,
+   "lastSuccess": "2026-11-09T03:36:47Z"
+  },
+  "16.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 20,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/16.txt",
+   "written": 20,
+   "servers": 20,
+   "lastSuccess": "2026-11-09T03:36:47Z"
+  },
+  "17.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 801,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/17.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:48Z"
+  },
+  "17.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 801,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/17.txt",
+   "written": 500,
+   "servers": 500,
+   "lastSuccess": "2026-11-09T03:36:48Z"
+  },
+  "18.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 107,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/18.txt",
+   "written": 107,
+   "servers": 107,
+   "lastSuccess": "2026-11-09T03:36:48Z"
+  },
+  "18.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 107,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/18.txt",
+   "written": 107,
+   "servers": 107,
+   "lastSuccess": "2026-11-09T03:36:48Z"
+  },
+  "19.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 1466,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/19.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:49Z"
+  },
+  "19.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 1466,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/19.txt",
+   "written": 500,
+   "servers": 500,
+   "lastSuccess": "2026-11-09T03:36:49Z"
+  },
+  "20.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 2113,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/20.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:50Z"
+  },
+  "20.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 2113,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/20.txt",
+   "written": 500,
+   "servers": 500,
+   "lastSuccess": "2026-11-09T03:36:50Z"
+  },
+  "21.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 35309,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/21.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:51Z"
+  },
+  "21.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 35309,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/21.txt",
+   "written": 500,
+   "servers": 500,
+   "lastSuccess": "2026-11-09T03:36:51Z"
+  },
+  "22.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 198,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/22.txt",
+   "written": 198,
+   "servers": 198,
+   "lastSuccess": "2026-11-09T03:36:51Z"
+  },
+  "22.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 198,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/22.txt",
+   "written": 198,
+   "servers": 198,
+   "lastSuccess": "2026-11-09T03:36:51Z"
+  },
+  "23.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 147,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/23.txt",
+   "written": 147,
+   "servers": 147,
+   "lastSuccess": "2026-11-09T03:36:52Z"
+  },
+  "23.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 147,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/23.txt",
+   "written": 147,
+   "servers": 147,
+   "lastSuccess": "2026-11-09T03:36:52Z"
+  },
+  "24.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 769,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/24.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:52Z"
+  },
+  "24.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 769,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/24.txt",
+   "written": 500,
+   "servers": 500,
+   "lastSuccess": "2026-11-09T03:36:52Z"
+  },
+  "25.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 258,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/25.txt",
+   "written": 258,
+   "servers": 258,
+   "lastSuccess": "2026-11-09T03:36:53Z"
+  },
+  "25.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 258,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/25.txt",
+   "written": 258,
+   "servers": 258,
+   "lastSuccess": "2026-11-09T03:36:53Z"
+  },
+  "26.1": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 2168,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/26.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:53Z"
+  },
+  "26.2": {
+   "source": "aneek0/goida-vpn-configs",
+   "httpStatus": 200,
+   "upstreamValid": 2168,
+   "url": "https://raw.githubusercontent.com/aneek0/goida-vpn-configs/refs/heads/main/githubmirror/26.txt",
+   "written": 500,
+   "servers": 500,
+   "lastSuccess": "2026-11-09T03:36:53Z"
+  },
+  "27": {
+   "source": "igareck/vpn-configs-for-russia",
+   "httpStatus": 200,
+   "upstreamValid": 181,
+   "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_SS%2BAll_RUS.txt",
+   "written": 181,
+   "servers": 181,
+   "lastSuccess": "2026-11-09T03:36:54Z"
+  },
+  "28.1": {
+   "source": "igareck/vpn-configs-for-russia",
+   "httpStatus": 200,
+   "upstreamValid": 900,
+   "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
+   "written": 300,
+   "servers": 300,
+   "lastSuccess": "2026-11-09T03:36:54Z"
+  },
+  "28.2": {
+   "source": "igareck/vpn-configs-for-russia",
+   "httpStatus": 200,
+   "upstreamValid": 900,
+   "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS.txt",
+   "written": 500,
+   "servers": 500,
+   "lastSuccess": "2026-11-09T03:36:54Z"
+  },
+  "29": {
+   "source": "igareck/vpn-configs-for-russia",
+   "httpStatus": 200,
+   "upstreamValid": 150,
+   "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/BLACK_VLESS_RUS_mobile.txt",
+   "written": 150,
+   "servers": 150,
+   "lastSuccess": "2026-11-09T03:36:54Z"
+  },
+  "30": {
+   "source": "igareck/vpn-configs-for-russia",
+   "httpStatus": 200,
+   "upstreamValid": 142,
+   "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile.txt",
+   "written": 142,
+   "servers": 142,
+   "lastSuccess": "2026-11-09T03:36:55Z"
+  },
+  "31": {
+   "source": null,
+   "httpStatus": 404,
+   "upstreamValid": 0,
+   "reason": "no data from upstream; kept last known good",
+   "written": 142,
+   "servers": 142,
+   "lastSuccess": null,
+   "attempts": [
+    {
+     "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Vless-Reality-White-Lists-Rus-Mobile-2.txt",
+     "httpStatus": 404,
+     "error": "HTTP 404"
+    }
+   ]
+  },
+  "32.1": {
+   "source": "igareck/vpn-configs-for-russia",
+   "httpStatus": 200,
+   "upstreamValid": 172,
+   "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
+   "written": 172,
+   "servers": 172,
+   "lastSuccess": "2026-11-09T03:36:55Z"
+  },
+  "32.2": {
+   "source": "igareck/vpn-configs-for-russia",
+   "httpStatus": 200,
+   "upstreamValid": 172,
+   "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-all.txt",
+   "written": 172,
+   "servers": 172,
+   "lastSuccess": "2026-11-09T03:36:55Z"
+  },
+  "33.1": {
+   "source": "igareck/vpn-configs-for-russia",
+   "httpStatus": 200,
+   "upstreamValid": 5,
+   "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-checked.txt",
+   "written": 5,
+   "servers": 5,
+   "lastSuccess": "2026-11-09T03:36:55Z"
+  },
+  "33.2": {
+   "source": "igareck/vpn-configs-for-russia",
+   "httpStatus": 200,
+   "upstreamValid": 5,
+   "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-CIDR-RU-checked.txt",
+   "written": 5,
+   "servers": 5,
+   "lastSuccess": "2026-11-09T03:36:55Z"
+  },
+  "34": {
+   "source": "igareck/vpn-configs-for-russia",
+   "httpStatus": 200,
+   "upstreamValid": 7,
+   "url": "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/WHITE-SNI-RU-all.txt",
+   "written": 7,
+   "servers": 7,
+   "lastSuccess": "2026-11-09T03:36:56Z"
+  }
+ },
+ "summary": {
+  "lists": 63,
+  "ok": 62,
+  "stale": 1,
+  "staleIds": [
+   "31"
+  ],
+  "refusedShrink": [],
+  "totalUnique": 10227
+ },
+ "legacyFiles": {
+  "1.10.txt": {
+   "servers": 0,
+   "published": false,
+   "empty": true
+  },
+  "1.11.txt": {
+   "servers": 519,
+   "published": false,
+   "empty": false
+  },
+  "1.12.txt": {
+   "servers": 0,
+   "published": false,
+   "empty": true
+  },
+  "1.13.txt": {
+   "servers": 371,
+   "published": false,
+   "empty": false
+  },
+  "1.14.txt": {
+   "servers": 13792,
+   "published": false,
+   "empty": false
+  },
+  "1.15.txt": {
+   "servers": 3128,
+   "published": false,
+   "empty": false
+  },
+  "1.16.txt": {
+   "servers": 0,
+   "published": false,
+   "empty": true
+  },
+  "1.17.txt": {
+   "servers": 381,
+   "published": false,
+   "empty": false
+  },
+  "1.18.txt": {
+   "servers": 0,
+   "published": false,
+   "empty": true
+  },
+  "1.19.txt": {
+   "servers": 2461,
+   "published": false,
+   "empty": false
+  },
+  "1.20.txt": {
+   "servers": 2115,
+   "published": false,
+   "empty": false
+  },
+  "1.21.txt": {
+   "servers": 3034,
+   "published": false,
+   "empty": false
+  },
+  "1.22.txt": {
+   "servers": 478,
+   "published": false,
+   "empty": false
+  },
+  "1.23.txt": {
+   "servers": 1060,
+   "published": false,
+   "empty": false
+  },
+  "1.24.txt": {
+   "servers": 4320,
+   "published": false,
+   "empty": false
+  },
+  "1.25.txt": {
+   "servers": 520,
+   "published": false,
+   "empty": false
+  },
+  "1.26.txt": {
+   "servers": 1118,
+   "published": false,
+   "empty": false
+  },
+  "1.3.txt": {
+   "servers": 12884,
+   "published": false,
+   "empty": false
+  },
+  "1.4.txt": {
+   "servers": 0,
+   "published": false,
+   "empty": true
+  },
+  "1.5.txt": {
+   "servers": 1179,
+   "published": false,
+   "empty": false
+  },
+  "1.6.txt": {
+   "servers": 148,
+   "published": false,
+   "empty": false
+  },
+  "1.7.txt": {
+   "servers": 0,
+   "published": false,
+   "empty": true
+  },
+  "1.8.txt": {
+   "servers": 198,
+   "published": false,
+   "empty": false
+  },
+  "1.9.txt": {
+   "servers": 370,
+   "published": false,
+   "empty": false
+  },
+  "1.txt": {
+   "servers": 299,
+   "published": false,
+   "empty": false
+  },
+  "11.txt": {
+   "servers": 130,
+   "published": false,
+   "empty": false
+  },
+  "13.txt": {
+   "servers": 93,
+   "published": false,
+   "empty": false
+  },
+  "14.txt": {
+   "servers": 299,
+   "published": false,
+   "empty": false
+  },
+  "15.txt": {
+   "servers": 299,
+   "published": false,
+   "empty": false
+  },
+  "17.txt": {
+   "servers": 96,
+   "published": false,
+   "empty": false
+  },
+  "19.txt": {
+   "servers": 299,
+   "published": false,
+   "empty": false
+  },
+  "2.txt": {
+   "servers": 299,
+   "published": false,
+   "empty": false
+  },
+  "20.txt": {
+   "servers": 299,
+   "published": false,
+   "empty": false
+  },
+  "21.txt": {
+   "servers": 299,
+   "published": false,
+   "empty": false
+  },
+  "22.txt": {
+   "servers": 120,
+   "published": false,
+   "empty": false
+  },
+  "23.txt": {
+   "servers": 265,
+   "published": false,
+   "empty": false
+  },
+  "24.txt": {
+   "servers": 299,
+   "published": false,
+   "empty": false
+  },
+  "25.txt": {
+   "servers": 130,
+   "published": false,
+   "empty": false
+  },
+  "26.txt": {
+   "servers": 280,
+   "published": false,
+   "empty": false
+  },
+  "28.txt": {
+   "servers": 299,
+   "published": false,
+   "empty": false
+  },
+  "3.txt": {
+   "servers": 299,
+   "published": false,
+   "empty": false
+  },
+  "32.txt": {
+   "servers": 299,
+   "published": false,
+   "empty": false
+  },
+  "33.txt": {
+   "servers": 197,
+   "published": false,
+   "empty": false
+  },
+  "5.txt": {
+   "servers": 295,
+   "published": false,
+   "empty": false
+  },
+  "6.txt": {
+   "servers": 148,
+   "published": false,
+   "empty": false
+  },
+  "8.txt": {
+   "servers": 198,
+   "published": false,
+   "empty": false
+  },
+  "9.txt": {
+   "servers": 93,
+   "published": false,
+   "empty": false
+  },
+  "vpn.txt": {
+   "servers": 540,
+   "published": false,
+   "empty": false
+  }
+ }
+}

@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0a0a0d">
   <title>Free configs</title>
-  <meta name="description" content="Укороченные VPN-подписки V2Ray, VLESS, Hysteria, Trojan, VMess. Обновление раз в минуту.">
+  <meta name="description" content="Укороченные VPN-подписки V2Ray, VLESS, Hysteria, Trojan, VMess. Автообновление раз в 4 часа.">
+  <meta name="robots" content="index, follow">
   <link rel="icon" href="icon.svg.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.svg.svg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -139,17 +140,21 @@
         whiteList: [26, 30, 31, 32, 33, 34],
         counts: {},
         displayTotal: 0,
+        stale: [],
+        updatedAt: '',
+        maxShort: 300,
+        maxFull: 500,
         configs: [
           { id: '1.1' }, { id: '2.1' }, { id: '3.1' }, { id: '4.1' }, { id: '5.1' }, { id: '6.1' }, { id: '7.1' }, { id: '8.1' }, { id: '9.1' }, { id: '10.1' }, { id: '11.1' }, { id: '12.1' }, { id: '13.1' }, { id: '14.1' }, { id: '15.1' }, { id: '16.1' }, { id: '17.1' }, { id: '18.1' }, { id: '19.1' }, { id: '20.1' }, { id: '21.1' }, { id: '22.1' }, { id: '23.1' }, { id: '24.1' }, { id: '25.1' }, { id: '26.1' },
           { id: 27 }, { id: '28.1' }, { id: 29 }, { id: 30 }, { id: 31 }, { id: '32.1' }, { id: '33.1' }, { id: 34 }
         ],
         fullConfigs: [
-          { id: '1.2', name: 'OpenRay' }, { id: '2.2', name: '5ubscrpt10n' }, { id: '3.2', name: 'proxy-minging' }, { id: '4.2', name: 'AutoVPN' }, { id: '5.2', name: 'V2RayCFGDumper' },
-          { id: '6.2', name: 'openproxylist' }, { id: '7.2', name: 'v2ray-configs' }, { id: '8.2', name: 'cid-vpn-config' }, { id: '9.2', name: 'telegram-v2ray-configs' }, { id: '10.2', name: '.proxy' },
-          { id: '11.2', name: 'V2rayCollector' }, { id: '12.2', name: '.proxy' }, { id: '13.2', name: 'config' }, { id: '14.2', name: 'Mineral' }, { id: '15.2', name: 'Config-Collector' },
-          { id: '16.2', name: 'Free-servers' }, { id: '17.2', name: 'V2rayCollector_Py' }, { id: '18.2', name: 'v2ray' }, { id: '19.2', name: 'V2rayCollector' }, { id: '20.2', name: 'Proxy-List' },
-          { id: '21.2', name: 'kamaji' }, { id: '22.2', name: 'xray-config-toolkit' }, { id: '23.2', name: 'Xray' }, { id: '24.2', name: 'STRUGOV' }, { id: '25.2', name: 'V2RayConfig' }, { id: '26.2', name: 'Обход' },
-          { id: '28.2', name: 'VLESS все (чёрный)' }, { id: '32.2', name: 'CIDR белый все' }, { id: '33.2', name: 'CIDR VK/Ya/CDN/Beeline' }
+          { id: '1.2', name: 'sakha1370/OpenRay' }, { id: '2.2', name: 'sevcator/5ubscrpt10n' }, { id: '3.2', name: 'yitong2333/proxy-minging' }, { id: '4.2', name: 'acymz/AutoVPN' }, { id: '5.2', name: 'miladtahanian/V2RayCFGDumper' },
+          { id: '6.2', name: 'roosterkid/openproxylist' }, { id: '7.2', name: 'Epodonios/v2ray-configs' }, { id: '8.2', name: 'ShatakVPN/ConfigForge-V2Ray' }, { id: '9.2', name: 'mohamadfg-dev/telegram-v2ray-configs-collector' }, { id: '10.2', name: 'mheidari98/.proxy' },
+          { id: '11.2', name: 'youfoundamin/V2rayCollector' }, { id: '12.2', name: 'VOID-Anonymity/V.O.I.D-VPN_Bypass' }, { id: '13.2', name: 'cbusifabcap/daily_free_vpn' }, { id: '14.2', name: 'LalatinaHub/Mineral' }, { id: '15.2', name: 'miladtahanian/Config-Collector' },
+          { id: '16.2', name: 'Pawdroid/Free-servers' }, { id: '17.2', name: 'MhdiTaheri/V2rayCollector_Py' }, { id: '18.2', name: 'free18/v2ray' }, { id: '19.2', name: 'MhdiTaheri/V2rayCollector' }, { id: '20.2', name: 'Argh94/Proxy-List' },
+          { id: '21.2', name: 'shabane/kamaji' }, { id: '22.2', name: 'wuqb2i4f/xray-config-toolkit' }, { id: '23.2', name: 'igareck BLACK_VLESS_RUS' }, { id: '24.2', name: 'Mr-Meshky/vify' }, { id: '25.2', name: 'V2RayRoot/V2RayConfig' }, { id: '26.2', name: 'Обход SNI/CIDR (без .ru)' },
+          { id: '28.2', name: 'WHITE-CIDR-RU-all' }, { id: '32.2', name: 'WHITE-CIDR-RU-all' }, { id: '33.2', name: 'WHITE-CIDR-RU-checked' }
         ],
         sourceNum(c) { const id = String(c.id); return parseInt(id.split('.')[0], 10) || 0; },
         get filtered() {
@@ -168,6 +173,7 @@
         isBlackList(c) { return this.blackList.includes(this.sourceNum(c)); },
         isWhiteList(c) { return this.whiteList.includes(this.sourceNum(c)); },
         getCount(id) { return this.counts[id] != null ? this.counts[id] : '—'; },
+        isStale(id) { return this.stale.indexOf(String(id)) >= 0; },
         serversWord(n) {
           if (n == null || typeof n !== 'number' || isNaN(n)) return 'серверов';
           const mod10 = n % 10, mod100 = n % 100;
@@ -197,6 +203,13 @@
         }
       }"
       x-init="
+        fetch(base + 'sources.json?t=' + Date.now()).then(r => r.ok ? r.json() : null).then(d => {
+          if (d) {
+            stale = (d.summary && d.summary.staleIds) ? d.summary.staleIds.map(String) : [];
+            updatedAt = d.generatedAt || '';
+            if (d.policy) { maxShort = d.policy.maxShort || maxShort; maxFull = d.policy.maxFull || maxFull; }
+          }
+        }).catch(() => {});
         fetch(base + 'counts.json?t=' + Date.now()).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(data => {
           if (data && typeof data === 'object') { counts = data; }
           const target = (data && typeof data.totalUnique === 'number') ? data.totalUnique : 0;
@@ -224,6 +237,33 @@
   </header>
 
   <main class="max-w-4xl mx-auto px-4 sm:px-6 py-8 sm:py-12 overflow-x-hidden">
+    <section class="mb-8 sm:mb-10 rounded-2xl border border-amber-500/25 bg-amber-500/[0.07] p-4 sm:p-5" role="status">
+      <div class="flex items-start gap-3">
+        <i class="fa-solid fa-triangle-exclamation text-amber-400 mt-0.5 shrink-0" aria-hidden="true"></i>
+        <div class="text-sm leading-relaxed text-[#d4d4d8] min-w-0">
+          <p class="font-semibold text-amber-400 mb-1">Источник AvenCores удалён — списки 1–26 переведены на живое зеркало</p>
+          <p>
+            Аккаунт и репозиторий <span class="text-[#a1a1aa]">github.com/AvenCores</span> недоступны (API отдаёт 404),
+            поэтому конфиги 1–26 <strong>не обновлялись с 24.09.2026</strong>. Сейчас они собираются из зеркала того же
+            проекта <a class="text-cyan-400 hover:underline" href="https://github.com/aneek0/goida-vpn-configs" target="_blank" rel="noopener noreferrer">aneek0/goida-vpn-configs</a>
+            — обновление возобновлено. Списки 27–34 берутся из
+            <a class="text-cyan-400 hover:underline" href="https://github.com/igareck/vpn-configs-for-russia" target="_blank" rel="noopener noreferrer">igareck/vpn-configs-for-russia</a>
+            и обновляются. Источник списка <strong>31</strong> удалён на стороне igareck — он помечен как устаревший.
+          </p>
+          <p class="mt-2 text-xs text-[#a1a1aa] leading-relaxed">
+            <strong class="text-amber-400/90">EN:</strong> the github.com/AvenCores account is gone (API returns 404), so lists 1–26
+            stopped updating on 24&nbsp;Sep&nbsp;2026. They are now taken from the live mirror aneek0/goida-vpn-configs; lists 27–34 come
+            from igareck/vpn-configs-for-russia. List 31 is stale because its upstream file was removed.
+          </p>
+          <p class="mt-2 text-xs text-[#71717a]" x-show="updatedAt" x-cloak>
+            Обновлено (UTC): <span x-text="updatedAt" class="text-[#a1a1aa]"></span>
+            <template x-if="stale.length">
+              <span> · устаревшие списки: <span x-text="stale.join(', ')" class="text-amber-400/90"></span> (статус в <a class="text-cyan-400 hover:underline" :href="base + 'sources.json'" target="_blank" rel="noopener noreferrer">sources.json</a>)</span>
+            </template>
+          </p>
+        </div>
+      </div>
+    </section>
     <section class="text-center mb-10 sm:mb-12">
       <h1 class="text-2xl sm:text-3xl font-bold text-[#e4e4e7] mb-2 tracking-tight">Подписки без лагов</h1>
       <p class="text-[#71717a] text-sm sm:text-base max-w-xl mx-auto leading-relaxed mb-6">
@@ -272,8 +312,8 @@
               :class="filterType === 'full' ? 'bg-rose-500/20 text-rose-300 border-rose-500/40' : 'bg-white/5 text-[#a1a1aa] border-white/10 hover:bg-white/10 hover:text-[#e4e4e7]'"
               class="px-3 py-2.5 sm:py-2 rounded-lg text-xs sm:text-sm font-medium border transition-all duration-200 flex items-center gap-1.5 min-h-[44px] sm:min-h-0 touch-manipulation">
         <i class="fa-solid fa-list text-[10px]"></i>
-        <span class="hidden sm:inline">Полные (не рекоменд.)</span>
-        <span class="sm:hidden">Полные</span>
+        <span class="hidden sm:inline">Расширенные (не рекоменд.)</span>
+        <span class="sm:hidden">Расшир.</span>
       </button>
     </nav>
 
@@ -311,8 +351,8 @@
             <p class="mt-1 text-[#a1a1aa]">Подписки для обхода ограничений.</p>
           </li>
           <li class="rounded-xl border border-rose-500/20 bg-rose-500/5 p-3">
-            <span class="font-semibold text-rose-300">Полные (не рекоменд.)</span>
-            <p class="mt-1 text-[#a1a1aa]">Полные списки. Тысячи серверов — могут тормозить устройство.</p>
+            <span class="font-semibold text-rose-300">Расширенные (не рекоменд.)</span>
+            <p class="mt-1 text-[#a1a1aa]">Расширенные списки (до 500 серверов). Больше выбора — выше нагрузка на устройство.</p>
           </li>
         </ul>
       </div>
@@ -347,6 +387,9 @@
                 <template x-if="isWhiteList(config)">
                   <span class="text-[10px] font-semibold px-2 py-1 rounded-lg bg-sky-500/15 text-sky-300 border border-sky-500/25">Белый список</span>
                 </template>
+                <template x-if="isStale(config.id)">
+                  <span class="text-[10px] font-semibold px-2 py-1 rounded-lg bg-amber-500/15 text-amber-300 border border-amber-500/30" title="Источник недоступен — отдаётся последняя рабочая копия">Устарел</span>
+                </template>
               </div>
             </div>
             <button type="button"
@@ -380,7 +423,7 @@
 
     <section x-show="filterType === 'full'" x-cloak class="space-y-5">
       <p class="text-rose-400/90 text-sm mb-4 rounded-xl border border-rose-500/20 bg-rose-500/5 px-4 py-3">
-        <i class="fa-solid fa-triangle-exclamation mr-2"></i><strong>Не рекомендовано.</strong> Полные списки содержат тысячи серверов и могут приводить к тормозам устройства, долгой загрузке и сбоям клиента.
+        <i class="fa-solid fa-triangle-exclamation mr-2"></i><strong>Не рекомендовано.</strong> Расширенные списки содержат до 500 серверов (вместо 300) и могут приводить к тормозам устройства, долгой загрузке и сбоям клиента.
       </p>
       <template x-for="(fc, index) in fullConfigs" :key="fc.id">
         <div class="card-full rounded-2xl border border-rose-500/15 p-5 sm:p-6 transition-all duration-300 animate-card-in hover:border-rose-500/25"
@@ -389,8 +432,11 @@
             <div class="flex items-start gap-3 min-w-0 flex-1">
               <div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-rose-500/10 text-rose-400 text-sm font-bold" x-text="fc.id"></div>
               <div class="min-w-0">
-                <span class="text-lg sm:text-xl font-bold text-[#e4e4e7] block">Полный конфиг <span x-text="fc.id"></span> — <span x-text="fc.name"></span></span>
-                <span class="text-xs text-rose-400/80 mt-0.5 block">Может вызывать тормоза устройства</span>
+                <span class="text-lg sm:text-xl font-bold text-[#e4e4e7] block">Расширенный конфиг <span x-text="fc.id"></span> — <span x-text="fc.name"></span></span>
+                <span class="text-xs text-rose-400/80 mt-0.5 block">До 500 серверов — может тормозить устройство</span>
+                <template x-if="isStale(fc.id)">
+                  <span class="inline-block mt-1 text-[10px] font-semibold px-2 py-1 rounded-lg bg-amber-500/15 text-amber-300 border border-amber-500/30">Устарел — источник недоступен</span>
+                </template>
               </div>
             </div>
             <button type="button"
@@ -428,14 +474,26 @@
           <i class="fab fa-github"></i>
           <span>igareck/vpn-configs-for-russia</span>
         </a>
-        <a href="https://github.com/AvenCores/goida-vpn-configs" target="_blank" rel="noopener noreferrer"
+        <a href="https://github.com/aneek0/goida-vpn-configs" target="_blank" rel="noopener noreferrer"
            class="flex items-center gap-2 text-[#a1a1aa] hover:text-[#e4e4e7] transition-colors rounded-lg px-3 py-1.5 hover:bg-white/5">
           <i class="fab fa-github"></i>
-          <span>AvenCores/goida-vpn-configs</span>
+          <span>aneek0/goida-vpn-configs <span class="text-[#52525b]">(списки 1–26)</span></span>
+        </a>
+        <a :href="base + 'sources.json'" target="_blank" rel="noopener noreferrer"
+           class="flex items-center gap-2 text-[#a1a1aa] hover:text-[#e4e4e7] transition-colors rounded-lg px-3 py-1.5 hover:bg-white/5">
+          <i class="fa-solid fa-circle-info"></i>
+          <span>sources.json</span>
         </a>
       </div>
-      <p class="mt-6 text-center text-xs text-[#52525b] max-w-lg mx-auto leading-relaxed">
-        Рекомендуются списки <strong class="text-[#71717a]">1, 6, 22–34</strong> (в т.ч. обход — чёрный и белый список).
+      <p class="mt-6 text-center text-xs text-[#52525b] max-w-2xl mx-auto leading-relaxed">
+        Короткие списки — до <strong class="text-[#71717a]">300</strong> серверов, расширенные — до
+        <strong class="text-[#71717a]">500</strong>. Рекомендуются списки
+        <strong class="text-[#71717a]">26–34</strong> (в т.ч. обход — чёрный и белый список).
+        Конфиги сторонние: автор не гарантирует их работу и безопасность, используйте на свой риск.
+        Полные инструкции и статус источников — в
+        <a href="https://github.com/Hidashimora/free-vpn-anti-rkn#readme" target="_blank" rel="noopener noreferrer" class="text-cyan-400/90 hover:underline">README (RU)</a>
+        и
+        <a href="https://github.com/Hidashimora/free-vpn-anti-rkn/blob/main/README.en.md" target="_blank" rel="noopener noreferrer" class="text-cyan-400/90 hover:underline">README (EN)</a>.
       </p>
     </footer>
 
