@@ -6,7 +6,7 @@
   </a>
 </p>
 
-[Русский](README.md) | **English**
+[Русский](README.md) | **English** | [日本語](README.ja.md)
 
 ---
 
